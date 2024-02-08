@@ -6,15 +6,8 @@
     <description>Recent content in Posts on Andres Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Feb 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://andGarc.github.io/ag/posts/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Faster Django Queries</title>
-      <link>https://andGarc.github.io/ag/posts/faster-django-queries/</link>
-      <pubDate>Wed, 07 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>https://andGarc.github.io/ag/posts/faster-django-queries/</guid>
-      <description>Improve your django queries</description>
-    </item>
     <item>
       <title>Gestalt Principles for Data Visualization</title>
       <link>https://andGarc.github.io/ag/posts/gestalt-principles/</link>
@@ -33,6 +26,13 @@ Closure: Our brains tend to fill in missing information to create a complete ima
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://andGarc.github.io/ag/posts/js-overview/</guid>
       <description>Quick Javascript Overview - Reference</description>
+    </item>
+    <item>
+      <title>Faster Django Queries</title>
+      <link>https://andGarc.github.io/ag/posts/faster-django-queries/</link>
+      <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/faster-django-queries/</guid>
+      <description>Improve your django queries</description>
     </item>
   </channel>
 </rss>
