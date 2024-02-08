@@ -18,7 +18,7 @@ ShowToc = true
 - Null
 
 ## Variables
-Variables can be defines using `let`, `const`, or `var`.
+Variables can be defined using `let`, `const`, or `var`.
 
 ### `let`
 Block-level variables
@@ -67,14 +67,14 @@ if () {
 ```js
 do {
 
-}while (true) {
+} while (true) {
 }
 ```
 
 ### `for`
 ```js
 for (let i = 0; i < 5; i++) {
-
+// do something
 }
 ```
 

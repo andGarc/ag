@@ -129,12 +129,12 @@
     <div class="post-description">
       Improve your django queries
     </div>
-    <div class="post-meta"><span title='2024-02-07 00:00:00 +0000 UTC'>February 7, 2024</span>&nbsp;·&nbsp;1 min
+    <div class="post-meta"><span title='2023-09-07 00:00:00 +0000 UTC'>September 7, 2023</span>&nbsp;·&nbsp;1 min
 
 </div>
   </header> 
   <div class="post-content"><h2 id="analyze-your-queries">Analyze your queries<a hidden class="anchor" aria-hidden="true" href="#analyze-your-queries">#</a></h2>
-<p>To see all interactions with the database</p>
+<p>To see all interactions with the database:</p>
 <p>In the <code>settings.py</code> add the code below to store all interactions in the sql.log file.</p>
 <pre tabindex="0"><code>LOGGING = {
 	&#39;version&#39;: 1,
@@ -184,8 +184,7 @@ for grade in grades:
 students = Student.objects.in_bulk(ids)  
 for student in students:  
 	print(student.first_name, student.last_name)
-</code></pre><p>#python #django</p>
-
+</code></pre>
 
   </div>
 

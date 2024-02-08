@@ -1,13 +1,14 @@
 +++
 title = 'Faster Django Queries'
-date = 2024-02-07
+date = 2023-09-07
 draft = false
 tags = ['python', 'django']
 Description = 'Improve your django queries'
 +++
 
 ## Analyze your queries
-To see all interactions with the database
+
+To see all interactions with the database:
 
 In the `settings.py` add the code below to store all interactions in the sql.log file.
 ```
@@ -73,5 +74,3 @@ students = Student.objects.in_bulk(ids)
 for student in students:  
 	print(student.first_name, student.last_name)
 ```
-
-#python #django
