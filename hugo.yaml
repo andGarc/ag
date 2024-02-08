@@ -19,22 +19,24 @@ menu:
 
 params:
   homeInfoParams:
-    Title: Hi there wave
+    Title: Hi there
     Content: >
-      👋 Welcome to demo page of Hugo's theme PaperMod!
+      👋 Welcome to my page!
 
-      - **PaperMod**  is designed to be clean and simple but fast and responsive theme with useful feature-set that enhances UX.
+      - This page is designed to be a place where I share anything and everything, but mostly technical stuff...
 
   socialIcons: # optional
-    - name: github
-      title: View Source on Github
-      url: "https://github.com/adityatelange/hugo-PaperMod"
-    - name: KoFi
-      title: Buy me a Ko-Fi :)
-      url: "https://ko-fi.com/adityatelange"
+    - name: linkedin
+      title: View LinkedIn profile
+      url: "https://www.linkedin.com/in/andres-garcia"
 
   ShowReadingTime: true
   ShowBreadCrumbs: true
   ShowCodeCopyButtons: true
   ShowAllPagesInArchive: true
   ShowPageNums: true
+
+outputs:
+  home:
+    - HTML
+    - JSON # necessary for search

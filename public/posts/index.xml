@@ -1,13 +1,13 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>Emoji on Andres Garcia</title>
-    <link>http://localhost:55883/ag/tags/emoji/</link>
-    <description>Recent content in Emoji on Andres Garcia</description>
+    <title>Posts on Andres Garcia</title>
+    <link>http://localhost:55883/ag/posts/</link>
+    <description>Recent content in Posts on Andres Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:55883/ag/tags/emoji/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:55883/ag/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
       <link>http://localhost:55883/ag/posts/test/</link>

@@ -2,29 +2,25 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ag/</loc>
+    <loc>http://localhost:55883/ag/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/docs/</loc>
+    <loc>http://localhost:55883/ag/tags/emoji/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/emoji/</loc>
+    <loc>http://localhost:55883/ag/posts/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/</loc>
+    <loc>http://localhost:55883/ag/tags/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/docs/test/</loc>
+    <loc>http://localhost:55883/ag/posts/test/</loc>
     <lastmod>2024-02-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/archives.fr/</loc>
+    <loc>http://localhost:55883/ag/archives/</loc>
   </url><url>
-    <loc>http://localhost:1313/ag/archives/</loc>
+    <loc>http://localhost:55883/ag/categories/</loc>
   </url><url>
-    <loc>http://localhost:1313/ag/categories/</loc>
-  </url><url>
-    <loc>http://localhost:1313/ag/search/</loc>
-  </url><url>
-    <loc>http://localhost:1313/ag/search.fr/</loc>
+    <loc>http://localhost:55883/ag/search/</loc>
   </url>
 </urlset>

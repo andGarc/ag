@@ -10,9 +10,9 @@
     <atom:link href="http://localhost:1313/ag/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
-      <link>http://localhost:1313/ag/docs/test/</link>
+      <link>http://localhost:1313/ag/posts/test/</link>
       <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/docs/test/</guid>
+      <guid>http://localhost:1313/ag/posts/test/</guid>
       <description>Test Page</description>
     </item>
   </channel>
