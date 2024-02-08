@@ -28,6 +28,13 @@ Closure: Our brains tend to fill in missing information to create a complete ima
       <description>Create an environment form a YAML file</description>
     </item>
     <item>
+      <title>Problem Solving for Anyone</title>
+      <link>https://andGarc.github.io/ag/posts/problem-solving-for-anyone/</link>
+      <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/problem-solving-for-anyone/</guid>
+      <description>How to use hypothesis like top strategy consultants</description>
+    </item>
+    <item>
       <title>Faster Django Queries</title>
       <link>https://andGarc.github.io/ag/posts/faster-django-queries/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
@@ -54,6 +61,13 @@ Closure: Our brains tend to fill in missing information to create a complete ima
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
       <guid>https://andGarc.github.io/ag/posts/sqlalchemy-broke/</guid>
       <description>Why did the SQLAlchemy ORM go to therapy? Because it had relationship issues!</description>
+    </item>
+    <item>
+      <title>Report an issue template</title>
+      <link>https://andGarc.github.io/ag/posts/issue-reporting-template/</link>
+      <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/issue-reporting-template/</guid>
+      <description>Template for reporting issues</description>
     </item>
   </channel>
 </rss>
