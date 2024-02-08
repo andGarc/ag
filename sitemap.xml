@@ -17,10 +17,10 @@
     <loc>https://andGarc.github.io/ag/tags/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://andGarc.github.io/ag/tags/js/</loc>
+    <loc>https://andGarc.github.io/ag/tags/python/</loc>
     <lastmod>2023-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://andGarc.github.io/ag/posts/js-overview/</loc>
+    <loc>https://andGarc.github.io/ag/posts/create-py-env-from-yaml/</loc>
     <lastmod>2023-12-07T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andGarc.github.io/ag/tags/django/</loc>
@@ -29,8 +29,17 @@
     <loc>https://andGarc.github.io/ag/posts/faster-django-queries/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://andGarc.github.io/ag/tags/python/</loc>
-    <lastmod>2023-09-07T00:00:00+00:00</lastmod>
+    <loc>https://andGarc.github.io/ag/tags/js/</loc>
+    <lastmod>2023-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andGarc.github.io/ag/posts/js-overview/</loc>
+    <lastmod>2023-07-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andGarc.github.io/ag/posts/switch-in-python/</loc>
+    <lastmod>2023-06-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://andGarc.github.io/ag/posts/sqlalchemy-broke/</loc>
+    <lastmod>2023-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://andGarc.github.io/ag/archives/</loc>
   </url><url>
