@@ -148,14 +148,50 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
-    <h2 class="entry-hint-parent">Test
+    <h2 class="entry-hint-parent">Faster Django Queries
     </h2>
   </header>
   <div class="entry-content">
-    <p>TEST PAGE this is a test page</p>
+    <p>Analyze your queries To see all interactions with the database
+In the settings.py add the code below to store all interactions in the sql.log file.
+LOGGING = { &#39;version&#39;: 1, &#39;disable_existing_loggers&#39;: False, &#39;handlers&#39;: { &#39;file&#39;: { &#39;level: &#39;DEBUG&#39;, &#39;class&#39;: &#39;logging.FileHandlers&#39;, &#39;filename&#39;: &#39;sql.log&#39;, }, }, &#39;loggers&#39;: { &#39;django.db.backends&#39;: { &#39;handlers&#39;: [&#39;files&#39;], &#39;levels&#39;: &#39;DEBUG&#39;, &#39;propagate&#39;: &#39;TRUE&#39; } } } Tip 1: Use bulk insert students = [] grades = [] batch_size = 500 for i in range(1000): student = Student() student....</p>
   </div>
-  <footer class="entry-footer"><span title='2024-02-01 00:00:00 +0000 UTC'>February 1, 2024</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Test" href="https://andGarc.github.io/ag/posts/test/"></a>
+  <footer class="entry-footer"><span title='2024-02-07 00:00:00 +0000 UTC'>February 7, 2024</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Faster Django Queries" href="https://andGarc.github.io/ag/posts/faster-django-queries/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Gestalt Principles for Data Visualization
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>TL;RD The Gestalt principles can be used to understand how people interact with and create order out of visual stimuli.
+There are 6 principles:
+Proximity: Things that are close together are perceived as belonging together.
+Similarity: Things that look similar are perceived as belonging together.
+Continuity: Our brains prefer to see smooth and continuous paths, even if there are gaps or interruptions.
+Closure: Our brains tend to fill in missing information to create a complete image or object....</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-31 00:00:00 +0000 UTC'>December 31, 2023</span>&nbsp;·&nbsp;4 min</footer>
+  <a class="entry-link" aria-label="post link to Gestalt Principles for Data Visualization" href="https://andGarc.github.io/ag/posts/gestalt-principles/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">JS Overview
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Data Types Number BigInt String Boolean Symbol Undefined Null Variables Variables can be defines using let, const, or var.
+let Block-level variables
+const Variables whose values are never intended to change. The variable is available from the block it is declared.
+var Not block-scoped and are discouraged in modern JS code
+Operators &#43; - ** / % ** == === Numbers can be added to strings and vice versa:
+4 &#43; 3 &#43; &#34;5&#34;; // &#34;75&#34; &#34;3&#34; &#43; 4 &#43; 5; // &#34;345&#34; // useful to convert strings Comparision == Does type coercion if given different types...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-07 00:00:00 +0000 UTC'>December 7, 2023</span>&nbsp;·&nbsp;5 min</footer>
+  <a class="entry-link" aria-label="post link to JS Overview" href="https://andGarc.github.io/ag/posts/js-overview/"></a>
 </article>
     </main>
     
