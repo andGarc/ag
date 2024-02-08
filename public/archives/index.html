@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Test | Andres Garcia</title>
-<meta name="keywords" content="emoji">
-<meta name="description" content="Test Page">
+<title>Archive | Andres Garcia</title>
+<meta name="keywords" content="">
+<meta name="description" content="archives">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/ag/docs/test/">
+<link rel="canonical" href="http://localhost:1313/ag/archives/">
 <link crossorigin="anonymous" href="/ag/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:1313/ag/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/ag/favicon-16x16.png">
@@ -18,7 +18,7 @@
 <link rel="mask-icon" href="http://localhost:1313/ag/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/ag/docs/test/">
+<link rel="alternate" hreflang="en" href="http://localhost:1313/ag/archives/">
 <noscript>
     <style>
         #theme-toggle,
@@ -58,7 +58,7 @@
 </noscript>
 </head>
 
-<body class="" id="top">
+<body class="list" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -102,7 +102,7 @@
         <ul id="menu">
             <li>
                 <a href="http://localhost:1313/ag/archives" title="Archive">
-                    <span>Archive</span>
+                    <span class="active">Archive</span>
                 </a>
             </li>
             <li>
@@ -120,31 +120,26 @@
 </header>
 <main class="main">
 
-<article class="post-single">
-  <header class="post-header">
-    <div class="breadcrumbs"><a href="http://localhost:1313/ag/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:1313/ag/docs/">Docs</a></div>
-    <h1 class="post-title entry-hint-parent">
-      Test
-    </h1>
-    <div class="post-description">
-      Test Page
+<header class="page-header">
+  <h1>
+    Archive
+  </h1>
+</header>
+<div class="archive-year">
+  <h2 class="archive-year-header">2024<sup class="archive-count">&nbsp;&nbsp;1</sup>
+  </h2>
+  <div class="archive-month">
+    <h3 class="archive-month-header">February<sup class="archive-count">&nbsp;&nbsp;1</sup></h3>
+    <div class="archive-posts">
+      <div class="archive-entry">
+        <h3 class="archive-entry-title entry-hint-parent">Test
+        </h3>
+        <div class="archive-meta"><span title='2024-02-01 00:00:00 +0000 UTC'>February 1, 2024</span>&nbsp;·&nbsp;1 min</div>
+        <a class="entry-link" aria-label="post link to Test" href="http://localhost:1313/ag/docs/test/"></a>
+      </div>
     </div>
-    <div class="post-meta"><span title='2024-02-01 00:00:00 +0000 UTC'>February 1, 2024</span>&nbsp;·&nbsp;1 min
-
-</div>
-  </header> 
-  <div class="post-content"><h1 id="test-page">TEST PAGE<a hidden class="anchor" aria-hidden="true" href="#test-page">#</a></h1>
-<p>this is a test page</p>
-
-
   </div>
-
-  <footer class="post-footer">
-    <ul class="post-tags">
-      <li><a href="http://localhost:1313/ag/tags/emoji/">Emoji</a></li>
-    </ul>
-  </footer>
-</article>
+</div>
     </main>
     
 <footer class="footer">
@@ -214,53 +209,6 @@
         }
     })
 
-</script>
-<script>
-    document.querySelectorAll('pre > code').forEach((codeblock) => {
-        const container = codeblock.parentNode.parentNode;
-
-        const copybutton = document.createElement('button');
-        copybutton.classList.add('copy-code');
-        copybutton.innerHTML = 'copy';
-
-        function copyingDone() {
-            copybutton.innerHTML = 'copied!';
-            setTimeout(() => {
-                copybutton.innerHTML = 'copy';
-            }, 2000);
-        }
-
-        copybutton.addEventListener('click', (cb) => {
-            if ('clipboard' in navigator) {
-                navigator.clipboard.writeText(codeblock.textContent);
-                copyingDone();
-                return;
-            }
-
-            const range = document.createRange();
-            range.selectNodeContents(codeblock);
-            const selection = window.getSelection();
-            selection.removeAllRanges();
-            selection.addRange(range);
-            try {
-                document.execCommand('copy');
-                copyingDone();
-            } catch (e) { };
-            selection.removeRange(range);
-        });
-
-        if (container.classList.contains("highlight")) {
-            container.appendChild(copybutton);
-        } else if (container.parentNode.firstChild == container) {
-            
-        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
-            
-            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
-        } else {
-            
-            codeblock.parentNode.appendChild(copybutton);
-        }
-    });
 </script>
 </body>
 
