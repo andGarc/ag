@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
-<title>Categories | Andres Garcia</title>
-<meta name="keywords" content="">
-<meta name="description" content="">
+<title>Faster Django Queries | Andres Garcia</title>
+<meta name="keywords" content="python, django">
+<meta name="description" content="Quick Javascript Overview - Reference">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:56103/ag/categories/">
+<link rel="canonical" href="http://localhost:56103/ag/posts/faster-django-queries/">
 <link crossorigin="anonymous" href="/ag/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="http://localhost:56103/ag/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="http://localhost:56103/ag/favicon-16x16.png">
@@ -18,8 +18,7 @@
 <link rel="mask-icon" href="http://localhost:56103/ag/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:56103/ag/categories/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:56103/ag/categories/">
+<link rel="alternate" hreflang="en" href="http://localhost:56103/ag/posts/faster-django-queries/">
 <noscript>
     <style>
         #theme-toggle,
@@ -59,7 +58,7 @@
 </noscript>
 </head>
 
-<body class="list" id="top">
+<body class="" id="top">
 <script>
     if (localStorage.getItem("pref-theme") === "dark") {
         document.body.classList.add('dark');
@@ -120,12 +119,83 @@
     </nav>
 </header>
 <main class="main">
-<header class="page-header">
-    <h1>Categories</h1>
-</header>
 
-<ul class="terms-tags">
-</ul>
+<article class="post-single">
+  <header class="post-header">
+    <div class="breadcrumbs"><a href="http://localhost:56103/ag/">Home</a>&nbsp;»&nbsp;<a href="http://localhost:56103/ag/posts/">Posts</a></div>
+    <h1 class="post-title entry-hint-parent">
+      Faster Django Queries
+    </h1>
+    <div class="post-description">
+      Quick Javascript Overview - Reference
+    </div>
+    <div class="post-meta"><span title='2024-02-07 00:00:00 +0000 UTC'>February 7, 2024</span>&nbsp;·&nbsp;1 min
+
+</div>
+  </header> 
+  <div class="post-content"><h2 id="analyze-your-queries">Analyze your queries<a hidden class="anchor" aria-hidden="true" href="#analyze-your-queries">#</a></h2>
+<p>To see all interactions with the database</p>
+<p>In the <code>settings.py</code> add the code below to store all interactions in the sql.log file.</p>
+<pre tabindex="0"><code>LOGGING = {
+	&#39;version&#39;: 1,
+	&#39;disable_existing_loggers&#39;: False,
+	&#39;handlers&#39;: {
+		&#39;file&#39;: {
+			&#39;level: &#39;DEBUG&#39;,
+			&#39;class&#39;: &#39;logging.FileHandlers&#39;,
+			&#39;filename&#39;: &#39;sql.log&#39;,
+		},
+	},
+	&#39;loggers&#39;: {
+		&#39;django.db.backends&#39;: {
+			&#39;handlers&#39;: [&#39;files&#39;],
+			&#39;levels&#39;: &#39;DEBUG&#39;,
+			&#39;propagate&#39;: &#39;TRUE&#39;
+		}
+	}
+}
+</code></pre><h4 id="tip-1-use-bulk-insert">Tip 1: Use bulk insert<a hidden class="anchor" aria-hidden="true" href="#tip-1-use-bulk-insert">#</a></h4>
+<pre tabindex="0"><code>students = []  
+grades = []  
+batch_size = 500  
+for i in range(1000):  
+	student = Student()  
+	student.first_name = str(i)  
+	student.last_name = str(i)  
+	students.append(student)  
+Student.objects.bulk_create(students, batch_size)
+</code></pre><h4 id="tip-2-use-bulk-update">Tip 2: Use bulk update<a hidden class="anchor" aria-hidden="true" href="#tip-2-use-bulk-update">#</a></h4>
+<pre tabindex="0"><code>batch_size = 500  
+grades = Grade.objects.all()  
+for grade in grades:  
+	grade.grade = 100  
+Grade.objects.bulk_update(grades, [**&#39;grade&#39;**], batch_size=batch_size)
+</code></pre><h4 id="tip-3-preload-related-object-data">Tip 3: Preload related object data<a hidden class="anchor" aria-hidden="true" href="#tip-3-preload-related-object-data">#</a></h4>
+<pre tabindex="0"><code>grades = Grade.objects.select_related(&#34;student&#34;).all()  
+for grade in grades:  
+	print(f&#34;The student {grade.student.first_name} has got 
+          {grade.grade}%&#34;)
+</code></pre><h4 id="tip-4-select-in-bulk">Tip 4: Select in bulk<a hidden class="anchor" aria-hidden="true" href="#tip-4-select-in-bulk">#</a></h4>
+<pre tabindex="0"><code>ids = []  
+grades = Grade.objects.all()  
+for grade in grades:  
+	if grade.grade == 100:  
+		ids.append(grade.student_id)  
+students = Student.objects.in_bulk(ids)  
+for student in students:  
+	print(student.first_name, student.last_name)
+</code></pre><p>#python #django</p>
+
+
+  </div>
+
+  <footer class="post-footer">
+    <ul class="post-tags">
+      <li><a href="http://localhost:56103/ag/tags/python/">Python</a></li>
+      <li><a href="http://localhost:56103/ag/tags/django/">Django</a></li>
+    </ul>
+  </footer>
+</article>
     </main>
     
 <footer class="footer">
@@ -195,6 +265,53 @@
         }
     })
 
+</script>
+<script>
+    document.querySelectorAll('pre > code').forEach((codeblock) => {
+        const container = codeblock.parentNode.parentNode;
+
+        const copybutton = document.createElement('button');
+        copybutton.classList.add('copy-code');
+        copybutton.innerHTML = 'copy';
+
+        function copyingDone() {
+            copybutton.innerHTML = 'copied!';
+            setTimeout(() => {
+                copybutton.innerHTML = 'copy';
+            }, 2000);
+        }
+
+        copybutton.addEventListener('click', (cb) => {
+            if ('clipboard' in navigator) {
+                navigator.clipboard.writeText(codeblock.textContent);
+                copyingDone();
+                return;
+            }
+
+            const range = document.createRange();
+            range.selectNodeContents(codeblock);
+            const selection = window.getSelection();
+            selection.removeAllRanges();
+            selection.addRange(range);
+            try {
+                document.execCommand('copy');
+                copyingDone();
+            } catch (e) { };
+            selection.removeRange(range);
+        });
+
+        if (container.classList.contains("highlight")) {
+            container.appendChild(copybutton);
+        } else if (container.parentNode.firstChild == container) {
+            
+        } else if (codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.nodeName == "TABLE") {
+            
+            codeblock.parentNode.parentNode.parentNode.parentNode.parentNode.appendChild(copybutton);
+        } else {
+            
+            codeblock.parentNode.appendChild(copybutton);
+        }
+    });
 </script>
 </body>
 

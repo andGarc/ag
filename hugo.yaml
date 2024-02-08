@@ -21,8 +21,6 @@ params:
   homeInfoParams:
     Title: Hi there
     Content: >
-      Welcome to my page!
-
       - Notes and stuff I find intersting, welcome!
 
   socialIcons: # optional
