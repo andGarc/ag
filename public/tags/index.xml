@@ -2,38 +2,52 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on Andres Garcia</title>
-    <link>http://localhost:56675/ag/tags/</link>
+    <link>http://localhost:57239/ag/tags/</link>
     <description>Recent content in Tags on Andres Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:56675/ag/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:57239/ag/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Dataviz</title>
-      <link>http://localhost:56675/ag/tags/dataviz/</link>
+      <link>http://localhost:57239/ag/tags/dataviz/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56675/ag/tags/dataviz/</guid>
+      <guid>http://localhost:57239/ag/tags/dataviz/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:56675/ag/tags/python/</link>
+      <link>http://localhost:57239/ag/tags/python/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56675/ag/tags/python/</guid>
+      <guid>http://localhost:57239/ag/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Django</title>
-      <link>http://localhost:56675/ag/tags/django/</link>
+      <link>http://localhost:57239/ag/tags/django/</link>
       <pubDate>Thu, 07 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56675/ag/tags/django/</guid>
+      <guid>http://localhost:57239/ag/tags/django/</guid>
       <description></description>
     </item>
     <item>
       <title>Js</title>
-      <link>http://localhost:56675/ag/tags/js/</link>
+      <link>http://localhost:57239/ag/tags/js/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:56675/ag/tags/js/</guid>
+      <guid>http://localhost:57239/ag/tags/js/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Git</title>
+      <link>http://localhost:57239/ag/tags/git/</link>
+      <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:57239/ag/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Template</title>
+      <link>http://localhost:57239/ag/tags/template/</link>
+      <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:57239/ag/tags/template/</guid>
       <description></description>
     </item>
   </channel>
