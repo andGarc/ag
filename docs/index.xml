@@ -6,14 +6,14 @@
     <description>Recent content in Docs on Andres Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 07 Feb 2024 19:41:46 -0500</lastBuildDate>
+    <lastBuildDate>Thu, 01 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://andGarc.github.io/ag/docs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Test</title>
       <link>https://andGarc.github.io/ag/docs/test/</link>
-      <pubDate>Wed, 07 Feb 2024 19:41:46 -0500</pubDate>
+      <pubDate>Thu, 01 Feb 2024 00:00:00 +0000</pubDate>
       <guid>https://andGarc.github.io/ag/docs/test/</guid>
-      <description>TEST PAGE </description>
+      <description>Test Page</description>
     </item>
   </channel>
 </rss>
