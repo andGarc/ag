@@ -1,6 +1,6 @@
 +++
 title = 'JS Overview'
-date = 2023-12-07
+date = 2023-07-17
 draft = false
 tags = ['js']
 Description = 'Quick Javascript Overview - Reference'

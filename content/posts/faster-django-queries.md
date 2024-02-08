@@ -11,7 +11,7 @@ Description = 'Improve your django queries'
 To see all interactions with the database:
 
 In the `settings.py` add the code below to store all interactions in the sql.log file.
-```
+```py
 LOGGING = {
 	'version': 1,
 	'disable_existing_loggers': False,
@@ -34,7 +34,7 @@ LOGGING = {
 ```
 
 #### Tip 1: Use bulk insert
-```
+```py
 students = []  
 grades = []  
 batch_size = 500  
@@ -47,7 +47,7 @@ Student.objects.bulk_create(students, batch_size)
 ```
 
 #### Tip 2: Use bulk update
-```
+```py
 batch_size = 500  
 grades = Grade.objects.all()  
 for grade in grades:  
@@ -56,7 +56,7 @@ Grade.objects.bulk_update(grades, [**'grade'**], batch_size=batch_size)
 ```
 
 #### Tip 3: Preload related object data
-```
+```py
 grades = Grade.objects.select_related("student").all()  
 for grade in grades:  
 	print(f"The student {grade.student.first_name} has got 
@@ -64,7 +64,7 @@ for grade in grades:
 ```
 
 #### Tip 4: Select in bulk
-```
+```py
 ids = []  
 grades = Grade.objects.all()  
 for grade in grades:  
