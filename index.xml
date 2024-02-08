@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
-    <title>My New Hugo Site</title>
+    <title>Andres Garcia</title>
     <link>https://andGarc.github.io/ag/</link>
-    <description>Recent content on My New Hugo Site</description>
+    <description>Recent content on Andres Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 07 Feb 2024 19:41:46 -0500</lastBuildDate>
