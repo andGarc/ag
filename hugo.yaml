@@ -23,7 +23,7 @@ params:
     Content: >
       Welcome to my page!
 
-      - This page is designed to be a place where I share anything and everything, but mostly technical stuff...
+      - Notes and stuff I find intersting, welcome!
 
   socialIcons: # optional
     - name: linkedin
