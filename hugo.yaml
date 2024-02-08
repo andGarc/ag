@@ -27,6 +27,9 @@ params:
     - name: linkedin
       title: View LinkedIn profile
       url: "https://www.linkedin.com/in/andres-garcia"
+    # - name: tableau
+    #   title: View Tableau Public
+    #   url: ""
 
   ShowReadingTime: true
   ShowBreadCrumbs: true
@@ -37,4 +40,7 @@ params:
 outputs:
   home:
     - HTML
-    - JSON # necessary for search
+    - JSON
+
+
+

@@ -3,7 +3,7 @@ title = 'Faster Django Queries'
 date = 2024-02-07
 draft = false
 tags = ['python', 'django']
-Description = 'Quick Javascript Overview - Reference'
+Description = 'Improve your django queries'
 +++
 
 ## Analyze your queries
