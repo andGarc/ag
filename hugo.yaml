@@ -21,7 +21,7 @@ params:
   homeInfoParams:
     Title: Hi there
     Content: >
-      - Notes and stuff I find intersting, welcome!
+      - Notes on things I find interesting. This page serves as my personal reference pocketbook.
 
   socialIcons: # optional
     - name: linkedin

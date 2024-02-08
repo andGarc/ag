@@ -2,61 +2,61 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:57239/ag/</loc>
+    <loc>http://localhost:1313/ag/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/tags/dataviz/</loc>
+    <loc>http://localhost:1313/ag/tags/dataviz/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/posts/gestalt-principles/</loc>
+    <loc>http://localhost:1313/ag/posts/gestalt-principles/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/posts/</loc>
+    <loc>http://localhost:1313/ag/posts/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/tags/</loc>
+    <loc>http://localhost:1313/ag/tags/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/tags/python/</loc>
+    <loc>http://localhost:1313/ag/tags/python/</loc>
     <lastmod>2023-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/posts/create-py-env-from-yaml/</loc>
+    <loc>http://localhost:1313/ag/posts/create-py-env-from-yaml/</loc>
     <lastmod>2023-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/posts/problem-solving-for-anyone/</loc>
+    <loc>http://localhost:1313/ag/posts/problem-solving-for-anyone/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/tags/django/</loc>
+    <loc>http://localhost:1313/ag/tags/django/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/posts/faster-django-queries/</loc>
+    <loc>http://localhost:1313/ag/posts/faster-django-queries/</loc>
     <lastmod>2023-09-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/tags/js/</loc>
+    <loc>http://localhost:1313/ag/tags/js/</loc>
     <lastmod>2023-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/posts/js-overview/</loc>
+    <loc>http://localhost:1313/ag/posts/js-overview/</loc>
     <lastmod>2023-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/posts/switch-in-python/</loc>
+    <loc>http://localhost:1313/ag/posts/switch-in-python/</loc>
     <lastmod>2023-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/posts/sqlalchemy-broke/</loc>
+    <loc>http://localhost:1313/ag/posts/sqlalchemy-broke/</loc>
     <lastmod>2023-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/tags/git/</loc>
+    <loc>http://localhost:1313/ag/tags/git/</loc>
     <lastmod>2023-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/posts/issue-reporting-template/</loc>
+    <loc>http://localhost:1313/ag/posts/issue-reporting-template/</loc>
     <lastmod>2023-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/tags/template/</loc>
+    <loc>http://localhost:1313/ag/tags/template/</loc>
     <lastmod>2023-03-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:57239/ag/archives/</loc>
+    <loc>http://localhost:1313/ag/archives/</loc>
   </url><url>
-    <loc>http://localhost:57239/ag/categories/</loc>
+    <loc>http://localhost:1313/ag/categories/</loc>
   </url><url>
-    <loc>http://localhost:57239/ag/search/</loc>
+    <loc>http://localhost:1313/ag/search/</loc>
   </url>
 </urlset>
