@@ -21,7 +21,7 @@ params:
   homeInfoParams:
     Title: Hi there
     Content: >
-      👋 Welcome to my page!
+      Welcome to my page!
 
       - This page is designed to be a place where I share anything and everything, but mostly technical stuff...
 
