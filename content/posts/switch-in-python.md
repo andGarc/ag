@@ -1,9 +1,9 @@
 +++
-title = 'Switch case replacement in Python'
+title = 'Switch Case Replacement in Python'
 date = 2023-06-13
 draft = false
 tags = ['python']
-description = 'Implement a switch case in python'
+description = 'How-to implement a switch case in python'
 +++
 
 ## TL;DR 

@@ -128,6 +128,33 @@
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Documenting a Project
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Intro Short description of what this project is about. It could be 1-2 sentences.
+Tech Stack List the main technologies you used. For small, extra packages, there is no need to wwrite them down
+Features Describe what your project can do, like what the user can do. Include all features, every little detail matters.
+Process Describe how you started, what the experience was like, whether you struggled with anything, and include conclusions and other relevant details....</p>
+  </div>
+  <footer class="entry-footer"><span title='2024-02-09 00:00:00 +0000 UTC'>February 9, 2024</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Documenting a Project" href="http://localhost:1313/ag/posts/documenting-a-project/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Use a Parameter to Swap Sheets
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p> Connect to datasource Create 2 or more sheets Create a parameter Data Type: String List Add sheet names Create a calculated field Drag the parameter here Add the calculated field as a filter to the sheets Select when to show the sheets Add sheets and parameter to the dashboard </p>
+  </div>
+  <footer class="entry-footer"><span title='2024-01-31 00:00:00 +0000 UTC'>January 31, 2024</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Use a Parameter to Swap Sheets" href="http://localhost:1313/ag/posts/use-parameter-to-swap-sheets/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">Gestalt Principles for Data Visualization
     </h2>
   </header>
@@ -141,6 +168,34 @@ Closure: Our brains tend to fill in missing information to create a complete ima
   </div>
   <footer class="entry-footer"><span title='2023-12-31 00:00:00 +0000 UTC'>December 31, 2023</span>&nbsp;·&nbsp;4 min</footer>
   <a class="entry-link" aria-label="post link to Gestalt Principles for Data Visualization" href="http://localhost:1313/ag/posts/gestalt-principles/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Questions Every Data Scientist Should Hardcore Into Their Brain
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Hammer Time “Hammer Problem” i.e. when you have a really nice hammer, everything looks like a nail. This often leads to projects which are intellectually stimulating yet practically useless.
+Problems &gt; Tech Key lesson: focus on problems rather than technologies. Gain a sufficiently deep understanding of the business problem before writing a single line of code.
+5 Problem Discovery Questions What problem are you trying to solve? Why…? One of the most difficult questions to ask....</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-31 00:00:00 +0000 UTC'>December 31, 2023</span>&nbsp;·&nbsp;2 min</footer>
+  <a class="entry-link" aria-label="post link to Questions Every Data Scientist Should Hardcore Into Their Brain" href="http://localhost:1313/ag/posts/questions-every-data-scientist-should-remember/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Supply Chain Demand Forecasting
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Predict future demand based on historical data
+Forecasting Techniques Time-Series Forecasting Uses past data to predict future demand. Assumes that the future will follow the same pattern as the past. Most common method is the Moving Average Method.
+Moving Average Method Calculated the average of the past n observations, where n is a user defined parameter. The forecast for the next period is then calculated by taking the average of the last n observations....</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-12-13 00:00:00 +0000 UTC'>December 13, 2023</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Supply Chain Demand Forecasting" href="http://localhost:1313/ag/posts/supply-chain-demand-forecasting/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -185,6 +240,26 @@ LOGGING = { &#39;version&#39;: 1, &#39;disable_existing_loggers&#39;: False, &#3
 
 <article class="post-entry"> 
   <header class="entry-header">
+    <h2 class="entry-hint-parent">Useful Tableau Calculations
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Dates Max Date
+MONTH([Date]) = MONTH({ FIXED : MAX([Date])})
+Max Date where values is not null or 0
+[Date] = { FIXED : MAX(IF [Actual Miles] &lt;&gt; 0 THEN [Date] END)}
+Get previous date using max date
+{ FIXED : MAX(IF [Max Date] = FALSE THEN [Date] END) }
+Get previous value using previous date
+IF [Date] = [Previous Date] THEN [MPG] ELSE 0 END
+Get current value using max date...</p>
+  </div>
+  <footer class="entry-footer"><span title='2023-08-14 00:00:00 +0000 UTC'>August 14, 2023</span>&nbsp;·&nbsp;1 min</footer>
+  <a class="entry-link" aria-label="post link to Useful Tableau Calculations" href="http://localhost:1313/ag/posts/useful-tableau-calculations/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
     <h2 class="entry-hint-parent">JS Overview
     </h2>
   </header>
@@ -199,48 +274,12 @@ Operators &#43; - ** / % ** == === Numbers can be added to strings and vice vers
   <footer class="entry-footer"><span title='2023-07-17 00:00:00 +0000 UTC'>July 17, 2023</span>&nbsp;·&nbsp;5 min</footer>
   <a class="entry-link" aria-label="post link to JS Overview" href="http://localhost:1313/ag/posts/js-overview/"></a>
 </article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Switch case replacement in Python
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR Before version 3.10, Python never had a feature similar to the switch statement in other programming languages Dictionary mapping can be used as a work around Keys act as cases in a switch statement Why did the Python dictionary break up with the JS object?
-Because the dictionary found the object too “undefined”
-Implementing a switch case replacement using Python dictionary mapping A switch statement in Java might look like this:...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-06-13 00:00:00 +0000 UTC'>June 13, 2023</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Switch case replacement in Python" href="http://localhost:1313/ag/posts/switch-in-python/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Did SQLAlchemy Break?
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>TL;DR The new version of SQLAlchemy has caused a compatibility issue with the read_sql_query() function in pandas. When calling read_sql_query() and utilizing an SQLAlchemy engine to read an SQL query into a DataFrame, an AttributeError is raised. To resolve this error, you can rectify it by enclosing the query string within SQLAlchemy’s text() function and passing a connection object instead of an engine object. import pandas as pd from sqlalchemy import create_engine, text engine = create_engine(&#34;&lt;Connection String&gt;&#34;) query = &#34;SELECT * FROM table&#34; df = pd....</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-05-04 00:00:00 +0000 UTC'>May 4, 2023</span>&nbsp;·&nbsp;2 min</footer>
-  <a class="entry-link" aria-label="post link to Did SQLAlchemy Break?" href="http://localhost:1313/ag/posts/sqlalchemy-broke/"></a>
-</article>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Report an issue template
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Title Expected Behavior Description
-Current Behavior Description
-Possible Solution Solution
-Steps to Reproduce (for bugs) See below in Your environment
-Your environment req1 req2 code/step1 code/step2 </p>
-  </div>
-  <footer class="entry-footer"><span title='2023-03-13 00:00:00 +0000 UTC'>March 13, 2023</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Report an issue template" href="http://localhost:1313/ag/posts/issue-reporting-template/"></a>
-</article>
+<footer class="page-footer">
+  <nav class="pagination">
+    <a class="next" href="http://localhost:1313/ag/posts/page/2/">Next&nbsp;2/2&nbsp;»
+    </a>
+  </nav>
+</footer>
     </main>
     
 <footer class="footer">

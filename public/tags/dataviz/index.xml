@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Dataviz on Andres Garcia</title>
-    <link>http://localhost:1313/ag/tags/dataviz/</link>
+    <link>http://localhost:58226/ag/tags/dataviz/</link>
     <description>Recent content in Dataviz on Andres Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/ag/tags/dataviz/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:58226/ag/tags/dataviz/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Gestalt Principles for Data Visualization</title>
-      <link>http://localhost:1313/ag/posts/gestalt-principles/</link>
+      <link>http://localhost:58226/ag/posts/gestalt-principles/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/posts/gestalt-principles/</guid>
+      <guid>http://localhost:58226/ag/posts/gestalt-principles/</guid>
       <description>TL;RD The Gestalt principles can be used to understand how people interact with and create order out of visual stimuli.
 There are 6 principles:
 Proximity: Things that are close together are perceived as belonging together.
