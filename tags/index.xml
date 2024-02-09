@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Andres Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://andGarc.github.io/ag/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>documentation</title>
+      <link>https://andGarc.github.io/ag/tags/documentation/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/tags/documentation/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>tableau</title>
+      <link>https://andGarc.github.io/ag/tags/tableau/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/tags/tableau/</guid>
+      <description></description>
+    </item>
     <item>
       <title>dataviz</title>
       <link>https://andGarc.github.io/ag/tags/dataviz/</link>
@@ -16,10 +30,31 @@
       <description></description>
     </item>
     <item>
+      <title>forecasting</title>
+      <link>https://andGarc.github.io/ag/tags/forecasting/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/tags/forecasting/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>ml</title>
+      <link>https://andGarc.github.io/ag/tags/ml/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/tags/ml/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>python</title>
       <link>https://andGarc.github.io/ag/tags/python/</link>
-      <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
       <guid>https://andGarc.github.io/ag/tags/python/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>supply</title>
+      <link>https://andGarc.github.io/ag/tags/supply/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/tags/supply/</guid>
       <description></description>
     </item>
     <item>
@@ -48,6 +83,13 @@
       <link>https://andGarc.github.io/ag/tags/template/</link>
       <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://andGarc.github.io/ag/tags/template/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>github</title>
+      <link>https://andGarc.github.io/ag/tags/github/</link>
+      <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/tags/github/</guid>
       <description></description>
     </item>
   </channel>

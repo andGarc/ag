@@ -6,8 +6,15 @@
     <description>Recent content in python on Andres Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 07 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Wed, 13 Dec 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://andGarc.github.io/ag/tags/python/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Supply Chain Demand Forecasting</title>
+      <link>https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/</guid>
+      <description>How to implement demand forecasting in the supply chain using python</description>
+    </item>
     <item>
       <title>Python Environment form a YAML file</title>
       <link>https://andGarc.github.io/ag/posts/create-py-env-from-yaml/</link>
@@ -23,11 +30,11 @@
       <description>Improve your django queries</description>
     </item>
     <item>
-      <title>Switch case replacement in Python</title>
+      <title>Switch Case Replacement in Python</title>
       <link>https://andGarc.github.io/ag/posts/switch-in-python/</link>
       <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://andGarc.github.io/ag/posts/switch-in-python/</guid>
-      <description>Implement a switch case in python</description>
+      <description>How-to implement a switch case in python</description>
     </item>
     <item>
       <title>Did SQLAlchemy Break?</title>

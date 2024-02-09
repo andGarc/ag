@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>supply on Andres Garcia</title>
+    <link>https://andGarc.github.io/ag/tags/supply/</link>
+    <description>Recent content in supply on Andres Garcia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 13 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://andGarc.github.io/ag/tags/supply/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Supply Chain Demand Forecasting</title>
+      <link>https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/</guid>
+      <description>How to implement demand forecasting in the supply chain using python</description>
+    </item>
+  </channel>
+</rss>

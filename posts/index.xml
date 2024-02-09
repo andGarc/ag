@@ -6,8 +6,22 @@
     <description>Recent content in Posts on Andres Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 31 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Fri, 09 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://andGarc.github.io/ag/posts/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Documenting a Project</title>
+      <link>https://andGarc.github.io/ag/posts/documenting-a-project/</link>
+      <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/documenting-a-project/</guid>
+      <description>Tips on documenting projects</description>
+    </item>
+    <item>
+      <title>Use a Parameter to Swap Sheets</title>
+      <link>https://andGarc.github.io/ag/posts/use-parameter-to-swap-sheets/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/use-parameter-to-swap-sheets/</guid>
+      <description>How to use a parameter in Tableau to swap between sheets</description>
+    </item>
     <item>
       <title>Gestalt Principles for Data Visualization</title>
       <link>https://andGarc.github.io/ag/posts/gestalt-principles/</link>
@@ -19,6 +33,22 @@ Proximity: Things that are close together are perceived as belonging together.
 Similarity: Things that look similar are perceived as belonging together.
 Continuity: Our brains prefer to see smooth and continuous paths, even if there are gaps or interruptions.
 Closure: Our brains tend to fill in missing information to create a complete image or object.</description>
+    </item>
+    <item>
+      <title>Questions Every Data Scientist Should Hardcore Into Their Brain</title>
+      <link>https://andGarc.github.io/ag/posts/questions-every-data-scientist-should-remember/</link>
+      <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/questions-every-data-scientist-should-remember/</guid>
+      <description>Hammer Time &amp;ldquo;Hammer Problem&amp;rdquo; i.e. when you have a really nice hammer, everything looks like a nail. This often leads to projects which are intellectually stimulating yet practically useless.
+Problems &amp;gt; Tech Key lesson: focus on problems rather than technologies. Gain a sufficiently deep understanding of the business problem before writing a single line of code.
+5 Problem Discovery Questions What problem are you trying to solve? Why&amp;hellip;? One of the most difficult questions to ask.</description>
+    </item>
+    <item>
+      <title>Supply Chain Demand Forecasting</title>
+      <link>https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/</link>
+      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/</guid>
+      <description>How to implement demand forecasting in the supply chain using python</description>
     </item>
     <item>
       <title>Python Environment form a YAML file</title>
@@ -42,6 +72,21 @@ Closure: Our brains tend to fill in missing information to create a complete ima
       <description>Improve your django queries</description>
     </item>
     <item>
+      <title>Useful Tableau Calculations</title>
+      <link>https://andGarc.github.io/ag/posts/useful-tableau-calculations/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/useful-tableau-calculations/</guid>
+      <description>Dates Max Date
+MONTH([Date]) = MONTH({ FIXED : MAX([Date])})
+Max Date where values is not null or 0
+[Date] = { FIXED : MAX(IF [Actual Miles] &amp;lt;&amp;gt; 0 THEN [Date] END)}
+Get previous date using max date
+{ FIXED : MAX(IF [Max Date] = FALSE THEN [Date] END) }
+Get previous value using previous date
+IF [Date] = [Previous Date] THEN [MPG] ELSE 0 END
+Get current value using max date</description>
+    </item>
+    <item>
       <title>JS Overview</title>
       <link>https://andGarc.github.io/ag/posts/js-overview/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
@@ -49,11 +94,11 @@ Closure: Our brains tend to fill in missing information to create a complete ima
       <description>Quick Javascript Overview - Reference</description>
     </item>
     <item>
-      <title>Switch case replacement in Python</title>
+      <title>Switch Case Replacement in Python</title>
       <link>https://andGarc.github.io/ag/posts/switch-in-python/</link>
       <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
       <guid>https://andGarc.github.io/ag/posts/switch-in-python/</guid>
-      <description>Implement a switch case in python</description>
+      <description>How-to implement a switch case in python</description>
     </item>
     <item>
       <title>Did SQLAlchemy Break?</title>
@@ -68,6 +113,20 @@ Closure: Our brains tend to fill in missing information to create a complete ima
       <pubDate>Mon, 13 Mar 2023 00:00:00 +0000</pubDate>
       <guid>https://andGarc.github.io/ag/posts/issue-reporting-template/</guid>
       <description>Template for reporting issues</description>
+    </item>
+    <item>
+      <title>Github Changes - Clone</title>
+      <link>https://andGarc.github.io/ag/posts/github-changes-clone/</link>
+      <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/github-changes-clone/</guid>
+      <description>Step-by-step guide on how to clone a repository, make changes, and submit a pull request using Git and GitHub</description>
+    </item>
+    <item>
+      <title>Github Changes - Fork</title>
+      <link>https://andGarc.github.io/ag/posts/github-changes-fork/</link>
+      <pubDate>Mon, 26 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/github-changes-fork/</guid>
+      <description>Step-by-step guide on how to fork a repository, make changes, and submit a pull request using Git and GitHub</description>
     </item>
   </channel>
 </rss>

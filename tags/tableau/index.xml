@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>tableau on Andres Garcia</title>
+    <link>https://andGarc.github.io/ag/tags/tableau/</link>
+    <description>Recent content in tableau on Andres Garcia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://andGarc.github.io/ag/tags/tableau/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Use a Parameter to Swap Sheets</title>
+      <link>https://andGarc.github.io/ag/posts/use-parameter-to-swap-sheets/</link>
+      <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/use-parameter-to-swap-sheets/</guid>
+      <description>How to use a parameter in Tableau to swap between sheets</description>
+    </item>
+    <item>
+      <title>Useful Tableau Calculations</title>
+      <link>https://andGarc.github.io/ag/posts/useful-tableau-calculations/</link>
+      <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/useful-tableau-calculations/</guid>
+      <description>Dates Max Date
+MONTH([Date]) = MONTH({ FIXED : MAX([Date])})
+Max Date where values is not null or 0
+[Date] = { FIXED : MAX(IF [Actual Miles] &amp;lt;&amp;gt; 0 THEN [Date] END)}
+Get previous date using max date
+{ FIXED : MAX(IF [Max Date] = FALSE THEN [Date] END) }
+Get previous value using previous date
+IF [Date] = [Previous Date] THEN [MPG] ELSE 0 END
+Get current value using max date</description>
+    </item>
+  </channel>
+</rss>

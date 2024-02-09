@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Switch Case Replacement in Python | Andres Garcia</title>
-<meta name="keywords" content="python">
-<meta name="description" content="How-to implement a switch case in python">
+<title>Supply Chain Demand Forecasting | Andres Garcia</title>
+<meta name="keywords" content="python, forecasting, supply, ml">
+<meta name="description" content="How to implement demand forecasting in the supply chain using python">
 <meta name="author" content="">
-<link rel="canonical" href="https://andGarc.github.io/ag/posts/switch-in-python/">
+<link rel="canonical" href="https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/">
 <link crossorigin="anonymous" href="/ag/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://andGarc.github.io/ag/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://andGarc.github.io/ag/favicon-16x16.png">
@@ -54,16 +54,16 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Switch Case Replacement in Python" />
-<meta property="og:description" content="How-to implement a switch case in python" />
+</noscript><meta property="og:title" content="Supply Chain Demand Forecasting" />
+<meta property="og:description" content="How to implement demand forecasting in the supply chain using python" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://andGarc.github.io/ag/posts/switch-in-python/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2023-06-13T00:00:00+00:00" />
-<meta property="article:modified_time" content="2023-06-13T00:00:00+00:00" />
+<meta property="og:url" content="https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-12-13T00:00:00+00:00" />
+<meta property="article:modified_time" content="2023-12-13T00:00:00+00:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Switch Case Replacement in Python"/>
-<meta name="twitter:description" content="How-to implement a switch case in python"/>
+<meta name="twitter:title" content="Supply Chain Demand Forecasting"/>
+<meta name="twitter:description" content="How to implement demand forecasting in the supply chain using python"/>
 
 
 <script type="application/ld+json">
@@ -80,8 +80,8 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Switch Case Replacement in Python",
-      "item": "https://andGarc.github.io/ag/posts/switch-in-python/"
+      "name": "Supply Chain Demand Forecasting",
+      "item": "https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/"
     }
   ]
 }
@@ -90,20 +90,20 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Switch Case Replacement in Python",
-  "name": "Switch Case Replacement in Python",
-  "description": "How-to implement a switch case in python",
+  "headline": "Supply Chain Demand Forecasting",
+  "name": "Supply Chain Demand Forecasting",
+  "description": "How to implement demand forecasting in the supply chain using python",
   "keywords": [
-    "python"
+    "python", "forecasting", "supply", "ml"
   ],
-  "articleBody": "TL;DR Before version 3.10, Python never had a feature similar to the switch statement in other programming languages Dictionary mapping can be used as a work around Keys act as cases in a switch statement Why did the Python dictionary break up with the JS object?\nBecause the dictionary found the object too “undefined”\nImplementing a switch case replacement using Python dictionary mapping A switch statement in Java might look like this:\n// switch case to get the string representation of month number int month = 1; String monthString; switch(month) { case 1: month = \"January\"; break; case 2: month = \"February\"; break; . . . default: month = \"Invalid Month\"; break; } System.out.println(\"Month \" + month + \" is \" + monthString); // Month 1 is January Python dictionaries contain key:value pairs.\nThe dictionary keys act as cases in a switch statament.\nSwitch case replacement in Python:\n# Function to get the string representation of a month number def month_num_to_string(month): switcher = { 1: 'January', 2: 'February', . . . } # get() returns the value of a key, # otherwise the default value is returned return switcher.get(month, 'Invalid Month') month = 1 print(f\"Month #{month} is month_num_to_string(month)}\") # Month 1 is January ",
-  "wordCount" : "203",
+  "articleBody": "Predict future demand based on historical data\nForecasting Techniques Time-Series Forecasting Uses past data to predict future demand. Assumes that the future will follow the same pattern as the past. Most common method is the Moving Average Method.\nMoving Average Method Calculated the average of the past n observations, where n is a user defined parameter. The forecast for the next period is then calculated by taking the average of the last n observations.\nRegression Analysis Regression analysis is a statistical method used to determine the relationship between a dependent variable and a one or more independent variables.\nUsed to determine the relationship between demand and factors such as price, promotions, and seasonality. Most common regression is the linear regression model.\nMachine Learning Machine learning algorithms can be used to predict future demand based on historical data and other factors such as seasonality, promotions, and weather. Most common machine learning algorithms are: decision trees, random forests, and neural networks.\nCredit\n",
+  "wordCount" : "160",
   "inLanguage": "en",
-  "datePublished": "2023-06-13T00:00:00Z",
-  "dateModified": "2023-06-13T00:00:00Z",
+  "datePublished": "2023-12-13T00:00:00Z",
+  "dateModified": "2023-12-13T00:00:00Z",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://andGarc.github.io/ag/posts/switch-in-python/"
+    "@id": "https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/"
   },
   "publisher": {
     "@type": "Organization",
@@ -181,71 +181,71 @@
   <header class="post-header">
     <div class="breadcrumbs"><a href="https://andGarc.github.io/ag/">Home</a>&nbsp;»&nbsp;<a href="https://andGarc.github.io/ag/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
-      Switch Case Replacement in Python
+      Supply Chain Demand Forecasting
     </h1>
     <div class="post-description">
-      How-to implement a switch case in python
+      How to implement demand forecasting in the supply chain using python
     </div>
-    <div class="post-meta"><span title='2023-06-13 00:00:00 +0000 UTC'>June 13, 2023</span>&nbsp;·&nbsp;1 min
+    <div class="post-meta"><span title='2023-12-13 00:00:00 +0000 UTC'>December 13, 2023</span>&nbsp;·&nbsp;1 min
 
 </div>
-  </header> 
-  <div class="post-content"><h2 id="tldr">TL;DR<a hidden class="anchor" aria-hidden="true" href="#tldr">#</a></h2>
-<ul>
-<li>Before version 3.10, Python never had a feature similar to the switch statement in other programming languages</li>
-<li>Dictionary mapping can be used as a work around</li>
-<li>Keys act as cases in a switch statement</li>
-</ul>
-<blockquote>
-<p>Why did the Python dictionary break up with the JS object?<br>
-Because the dictionary found the object too &ldquo;undefined&rdquo;</p>
-</blockquote>
-<h2 id="implementing-a-switch-case-replacement-using-python-dictionary-mapping">Implementing a switch case replacement using Python dictionary mapping<a hidden class="anchor" aria-hidden="true" href="#implementing-a-switch-case-replacement-using-python-dictionary-mapping">#</a></h2>
-<p>A switch statement in Java might look like this:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-java" data-lang="java"><span style="display:flex;"><span><span style="color:#75715e">// switch case to get the string representation of month number
-</span></span></span><span style="display:flex;"><span><span style="color:#75715e"></span><span style="color:#66d9ef">int</span> month <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>String monthString<span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">switch</span><span style="color:#f92672">(</span>month<span style="color:#f92672">)</span> <span style="color:#f92672">{</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">1</span><span style="color:#f92672">:</span> month <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;January&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">case</span> <span style="color:#ae81ff">2</span><span style="color:#f92672">:</span> month <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;February&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">.</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">.</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#f92672">.</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">default</span><span style="color:#f92672">:</span> month <span style="color:#f92672">=</span> <span style="color:#e6db74">&#34;Invalid Month&#34;</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span>            <span style="color:#66d9ef">break</span><span style="color:#f92672">;</span>
-</span></span><span style="display:flex;"><span><span style="color:#f92672">}</span>
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>System<span style="color:#f92672">.</span><span style="color:#a6e22e">out</span><span style="color:#f92672">.</span><span style="color:#a6e22e">println</span><span style="color:#f92672">(</span><span style="color:#e6db74">&#34;Month &#34;</span> <span style="color:#f92672">+</span> month <span style="color:#f92672">+</span> <span style="color:#e6db74">&#34; is &#34;</span> <span style="color:#f92672">+</span> monthString<span style="color:#f92672">);</span>
-</span></span><span style="display:flex;"><span><span style="color:#75715e">// Month 1 is January
-</span></span></span></code></pre></div><p>Python dictionaries contain <code>key:value</code> pairs.<br>
-The dictionary keys act as cases in a switch statament.</p>
-<p>Switch case replacement in Python:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Function to get the string representation of a month number</span>
-</span></span><span style="display:flex;"><span><span style="color:#66d9ef">def</span> <span style="color:#a6e22e">month_num_to_string</span>(month):
-</span></span><span style="display:flex;"><span>    switcher <span style="color:#f92672">=</span> {
-</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">1</span>: <span style="color:#e6db74">&#39;January&#39;</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#ae81ff">2</span>: <span style="color:#e6db74">&#39;February&#39;</span>,
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">.</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">.</span>
-</span></span><span style="display:flex;"><span>        <span style="color:#f92672">.</span>
-</span></span><span style="display:flex;"><span>    }
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># get() returns the value of a key,</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#75715e"># otherwise the default value is returned</span>
-</span></span><span style="display:flex;"><span>    <span style="color:#66d9ef">return</span> switcher<span style="color:#f92672">.</span>get(month, <span style="color:#e6db74">&#39;Invalid Month&#39;</span>)
-</span></span><span style="display:flex;"><span>
-</span></span><span style="display:flex;"><span>month <span style="color:#f92672">=</span> <span style="color:#ae81ff">1</span>
-</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Month #</span><span style="color:#e6db74">{</span>month<span style="color:#e6db74">}</span><span style="color:#e6db74"> is month_num_to_string(month)</span><span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>) 
-</span></span><span style="display:flex;"><span><span style="color:#75715e"># Month 1 is January</span>
-</span></span></code></pre></div>
+  </header> <div class="toc">
+    <details >
+        <summary accesskey="c" title="(Alt + C)">
+            <span class="details">Table of Contents</span>
+        </summary>
+
+        <div class="inner"><ul>
+                <li>
+                    <a href="#forecasting-techniques" aria-label="Forecasting Techniques">Forecasting Techniques</a><ul>
+                        
+                <li>
+                    <a href="#time-series-forecasting" aria-label="Time-Series Forecasting">Time-Series Forecasting</a><ul>
+                        
+                <li>
+                    <a href="#moving-average-method" aria-label="Moving Average Method">Moving Average Method</a></li></ul>
+                </li>
+                <li>
+                    <a href="#regression-analysis" aria-label="Regression Analysis">Regression Analysis</a></li>
+                <li>
+                    <a href="#machine-learning" aria-label="Machine Learning">Machine Learning</a>
+                </li>
+            </ul>
+            </li>
+            </ul>
+        </div>
+    </details>
+</div>
+
+  <div class="post-content"><p>Predict future demand based on historical data</p>
+<h2 id="forecasting-techniques">Forecasting Techniques<a hidden class="anchor" aria-hidden="true" href="#forecasting-techniques">#</a></h2>
+<h3 id="time-series-forecasting">Time-Series Forecasting<a hidden class="anchor" aria-hidden="true" href="#time-series-forecasting">#</a></h3>
+<p>Uses past data to predict future demand.
+Assumes that the future will follow the same pattern as the past.
+Most common method is the <strong>Moving Average Method</strong>.</p>
+<h4 id="moving-average-method">Moving Average Method<a hidden class="anchor" aria-hidden="true" href="#moving-average-method">#</a></h4>
+<p>Calculated the average of the past n observations, where n is a user defined parameter.
+The forecast for the next period is then calculated by taking the average of the last n observations.</p>
+<h3 id="regression-analysis">Regression Analysis<a hidden class="anchor" aria-hidden="true" href="#regression-analysis">#</a></h3>
+<p>Regression analysis is  a statistical method used to determine the
+relationship between a dependent variable and a one or more independent
+variables.</p>
+<p>Used to determine the relationship between demand and factors such as price, promotions, and seasonality.
+Most common regression is the <strong>linear regression model</strong>.</p>
+<h3 id="machine-learning">Machine Learning<a hidden class="anchor" aria-hidden="true" href="#machine-learning">#</a></h3>
+<p>Machine learning algorithms can be used to predict future demand based on historical data and other factors such as seasonality, promotions, and weather.
+Most common machine learning algorithms are: <strong>decision trees</strong>, <strong>random forests</strong>, and <strong>neural networks</strong>.</p>
+<p><a href="https://houtman80.medium.com/how-to-implement-demand-forecasting-in-the-supply-chain-using-python-849fa835bd9f">Credit</a></p>
+
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
       <li><a href="https://andGarc.github.io/ag/tags/python/">python</a></li>
+      <li><a href="https://andGarc.github.io/ag/tags/forecasting/">forecasting</a></li>
+      <li><a href="https://andGarc.github.io/ag/tags/supply/">supply</a></li>
+      <li><a href="https://andGarc.github.io/ag/tags/ml/">ml</a></li>
     </ul>
   </footer>
 </article>
