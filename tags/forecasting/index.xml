@@ -6,12 +6,12 @@
     <description>Recent content in forecasting on Andres Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 Dec 2023 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 22 Oct 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://andGarc.github.io/ag/tags/forecasting/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Supply Chain Demand Forecasting</title>
       <link>https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/</link>
-      <pubDate>Wed, 13 Dec 2023 00:00:00 +0000</pubDate>
+      <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
       <guid>https://andGarc.github.io/ag/posts/supply-chain-demand-forecasting/</guid>
       <description>How to implement demand forecasting in the supply chain using python</description>
     </item>
