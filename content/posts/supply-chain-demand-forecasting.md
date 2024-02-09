@@ -1,6 +1,6 @@
 +++
 title = 'Supply Chain Demand Forecasting'
-date = 2023-12-13
+date = 2023-10-22
 draft = false
 tags = ['python', 'forecasting', 'supply', 'ml']
 description = 'How to implement demand forecasting in the supply chain using python'

@@ -1,6 +1,6 @@
 +++
-title = 'Report an issue template'
-date = 2023-03-13
+title = 'Report an Issue Template'
+date = 2023-09-26
 draft = false
 tags = ['git', 'template']
 description = 'Template for reporting issues'

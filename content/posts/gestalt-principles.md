@@ -1,6 +1,6 @@
 +++
 title = 'Gestalt Principles for Data Visualization'
-date = 2023-12-31
+date = 2023-03-16
 draft = false
 tags = ["dataviz"]
 ShowToc = true

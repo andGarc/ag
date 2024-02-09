@@ -1,6 +1,6 @@
 +++
 title = 'Faster Django Queries'
-date = 2023-09-07
+date = 2022-12-07
 draft = false
 tags = ['python', 'django']
 Description = 'Improve your django queries'
