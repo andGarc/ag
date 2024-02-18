@@ -138,6 +138,13 @@ Closure: Our brains tend to fill in missing information to create a complete ima
       <description>Improve your django queries</description>
     </item>
     <item>
+      <title>Naming Conventions Git Branches</title>
+      <link>http://localhost:1313/ag/posts/naming-conventions-git-branches/</link>
+      <pubDate>Sat, 01 Oct 2022 18:16:16 -0500</pubDate>
+      <guid>http://localhost:1313/ag/posts/naming-conventions-git-branches/</guid>
+      <description>Cheatsheet</description>
+    </item>
+    <item>
       <title>Github Changes - Clone</title>
       <link>http://localhost:1313/ag/posts/github-changes-clone/</link>
       <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
