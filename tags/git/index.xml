@@ -16,6 +16,13 @@
       <description>Template for reporting issues</description>
     </item>
     <item>
+      <title>Naming Conventions Git Branches</title>
+      <link>https://andGarc.github.io/ag/posts/naming-conventions-git-branches/</link>
+      <pubDate>Sat, 01 Oct 2022 18:16:16 -0500</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/naming-conventions-git-branches/</guid>
+      <description>Cheatsheet</description>
+    </item>
+    <item>
       <title>Github Changes - Clone</title>
       <link>https://andGarc.github.io/ag/posts/github-changes-clone/</link>
       <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
