@@ -21,8 +21,7 @@ params:
   homeInfoParams:
     Title: Hi there
     Content: >
-      - Notes on things I find interesting. This page serves as my personal reference pocketbook.
-
+      - My name is Andres Garcia and this is my digital garden.
   socialIcons: # optional
     - name: linkedin
       title: View LinkedIn profile

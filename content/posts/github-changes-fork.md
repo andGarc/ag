@@ -27,8 +27,6 @@ description = 'Step-by-step guide on how to fork a repository, make changes, and
         
     - Run the following command:
         
-        bashCopy code
-        
         `git clone https://github.com/your-username/repository.git`
         
 
@@ -38,13 +36,9 @@ description = 'Step-by-step guide on how to fork a repository, make changes, and
     
     - Change into the project's directory:
         
-        bashCopy code
-        
         `cd repository`
         
     - Create a new branch for your changes. It's a good practice to name your branch descriptively:
-        
-        bashCopy code
         
         `git checkout -b feature-branch`
         
@@ -56,21 +50,15 @@ description = 'Step-by-step guide on how to fork a repository, make changes, and
     
     - Add the changes to the staging area:
         
-        bashCopy code
-        
         `git add .`
         
     - Commit the changes:
-        
-        bashCopy code
         
         `git commit -m "Description of changes"`
         
 6. **Push Changes to Your Fork:**
     
     - Push the changes to your fork on GitHub:
-        
-        bashCopy code
         
         `git push origin feature-branch`
         

@@ -17,22 +17,16 @@ If you don't want to fork the repository and prefer to clone and contribute dire
     - Navigate to the directory where you want to store the project.
         
     - Run the following command:
-        
-        bashCopy code
-        
+          
         `git clone https://github.com/original-author/repository.git`
         
 2. **Create a Branch:**
     
     - Change into the project's directory:
         
-        bashCopy code
-        
         `cd repository`
         
     - Create a new branch for your changes. It's a good practice to name your branch descriptively:
-        
-        bashCopy code
         
         `git checkout -b feature-branch`
         
@@ -43,21 +37,15 @@ If you don't want to fork the repository and prefer to clone and contribute dire
     
     - Add the changes to the staging area:
         
-        bashCopy code
-        
         `git add .`
         
     - Commit the changes:
-        
-        bashCopy code
         
         `git commit -m "Description of changes"`
         
 5. **Push Changes to the Original Repository:**
     
     - Push the changes to the original repository:
-        
-        bashCopy code
         
         `git push origin feature-branch`
         
