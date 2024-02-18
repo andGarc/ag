@@ -15,6 +15,6 @@ Mine is powered by [Hugo](https://gohugo.io) & [PaperMod](https://github.com/adi
 
 ## Who are you exactly? 
 I'm a data professional with interests in programming, ML, and data viz.  
-On a personal note, I like to spend time outdoors skiing or whitewater kayaking. 
+On a personal note, I like to spend time outdoors, skiing or whitewater kayaking. 
 
 
