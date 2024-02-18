@@ -5,11 +5,11 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="index, follow">
-<title>Github Changes - Clone | Andres Garcia</title>
-<meta name="keywords" content="git, github">
-<meta name="description" content="Step-by-step guide on how to clone a repository, make changes, and submit a pull request using Git and GitHub">
+<title>Optimize Python Code Using Pre-Allocation | Andres Garcia</title>
+<meta name="keywords" content="python">
+<meta name="description" content="Pre-Allocation example in python">
 <meta name="author" content="">
-<link rel="canonical" href="https://andGarc.github.io/ag/posts/github-changes-clone/">
+<link rel="canonical" href="https://andGarc.github.io/ag/posts/pre-allocation-python/">
 <link crossorigin="anonymous" href="/ag/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
 <link rel="icon" href="https://andGarc.github.io/ag/favicon.ico">
 <link rel="icon" type="image/png" sizes="16x16" href="https://andGarc.github.io/ag/favicon-16x16.png">
@@ -54,16 +54,16 @@
         }
 
     </style>
-</noscript><meta property="og:title" content="Github Changes - Clone" />
-<meta property="og:description" content="Step-by-step guide on how to clone a repository, make changes, and submit a pull request using Git and GitHub" />
+</noscript><meta property="og:title" content="Optimize Python Code Using Pre-Allocation" />
+<meta property="og:description" content="Pre-Allocation example in python" />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://andGarc.github.io/ag/posts/github-changes-clone/" /><meta property="article:section" content="posts" />
-<meta property="article:published_time" content="2022-09-26T00:00:00+00:00" />
-<meta property="article:modified_time" content="2022-09-26T00:00:00+00:00" />
+<meta property="og:url" content="https://andGarc.github.io/ag/posts/pre-allocation-python/" /><meta property="article:section" content="posts" />
+<meta property="article:published_time" content="2023-08-26T18:41:22-05:00" />
+<meta property="article:modified_time" content="2023-08-26T18:41:22-05:00" />
 
 <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Github Changes - Clone"/>
-<meta name="twitter:description" content="Step-by-step guide on how to clone a repository, make changes, and submit a pull request using Git and GitHub"/>
+<meta name="twitter:title" content="Optimize Python Code Using Pre-Allocation"/>
+<meta name="twitter:description" content="Pre-Allocation example in python"/>
 
 
 <script type="application/ld+json">
@@ -80,8 +80,8 @@
     {
       "@type": "ListItem",
       "position":  2 ,
-      "name": "Github Changes - Clone",
-      "item": "https://andGarc.github.io/ag/posts/github-changes-clone/"
+      "name": "Optimize Python Code Using Pre-Allocation",
+      "item": "https://andGarc.github.io/ag/posts/pre-allocation-python/"
     }
   ]
 }
@@ -90,20 +90,20 @@
 {
   "@context": "https://schema.org",
   "@type": "BlogPosting",
-  "headline": "Github Changes - Clone",
-  "name": "Github Changes - Clone",
-  "description": "Step-by-step guide on how to clone a repository, make changes, and submit a pull request using Git and GitHub",
+  "headline": "Optimize Python Code Using Pre-Allocation",
+  "name": "Optimize Python Code Using Pre-Allocation",
+  "description": "Pre-Allocation example in python",
   "keywords": [
-    "git", "github"
+    "python"
   ],
-  "articleBody": "If you don’t want to fork the repository and prefer to clone and contribute directly to the original repository, you can follow these steps:\nCloning and Contributing Without Forking: Clone the Repository:\nOpen a terminal on your local machine.\nNavigate to the directory where you want to store the project.\nRun the following command:\ngit clone https://github.com/original-author/repository.git\nCreate a Branch:\nChange into the project’s directory:\ncd repository\nCreate a new branch for your changes. It’s a good practice to name your branch descriptively:\ngit checkout -b feature-branch\nMake Changes:\nMake the necessary changes to the code using your preferred editor. Commit Changes:\nAdd the changes to the staging area:\ngit add .\nCommit the changes:\ngit commit -m \"Description of changes\"\nPush Changes to the Original Repository:\nPush the changes to the original repository:\ngit push origin feature-branch\nCreating a Pull Request: Submit a Pull Request:\nVisit the original repository on GitHub. You should see a banner indicating that you recently pushed a branch. Click on the “Compare \u0026 pull request” button. Add a title and description to your pull request, explaining what changes you made. Click on “Create pull request.” Review and Merge:\nThe repository maintainers will review your changes. They may ask for modifications. Once the changes are approved, they will merge your pull request. Keep in mind that this approach requires write access to the original repository. If you don’t have write access, you may need to fork the repository or contact the repository owner to discuss your changes.\n",
-  "wordCount" : "252",
+  "articleBody": "Note: you’ll really only notice a performance improvement when working with large data. Always make sure to look at Big-O first and fixt those issues first.\nWhat is Pre-Allocation Pre-allocation in Python typically refers to allocating memory or space for data structures such as lists, arrays, or other collections before adding elements to them. This concept is particularly relevant in situations where the size of the data structure is known in advance, or when performance optimization is desired.\nExample We are creating an empty list, iterating 30 million times using a for loop, and appending an element to the list at every iteration.\n# Dynamic Storage start = time.time() my_list = [] for num in range(30_000_000): my_list.append(num) end = time.time() print(f\"Seconds: {end-start}\") We can use pre-allocation to optimize the code above. We can create a list containing 30 million elements, with each element initially set to 0. Then we’ll change the values of that list at each index as we go throught the loop.\n# Pre-allocation start = time.time() my_list = [0]*30_000_000 for num in range(30_000_000): my_list[num] = num end = time.time() print(f\"Seconds: {end-start}\") Summary Preallocation can be beneficial in scenarios where you know the size of the data structure in advance and want to avoid unnecessary memory reallocations, which can improve performance and memory efficiency. However, it’s important to note that Python’s lists automatically resize themselves as needed, so preallocation is not always necessary and may not always lead to significant performance improvements. It’s often a matter of optimizing specific performance-critical sections of code.\n",
+  "wordCount" : "255",
   "inLanguage": "en",
-  "datePublished": "2022-09-26T00:00:00Z",
-  "dateModified": "2022-09-26T00:00:00Z",
+  "datePublished": "2023-08-26T18:41:22-05:00",
+  "dateModified": "2023-08-26T18:41:22-05:00",
   "mainEntityOfPage": {
     "@type": "WebPage",
-    "@id": "https://andGarc.github.io/ag/posts/github-changes-clone/"
+    "@id": "https://andGarc.github.io/ag/posts/pre-allocation-python/"
   },
   "publisher": {
     "@type": "Organization",
@@ -181,103 +181,45 @@
   <header class="post-header">
     <div class="breadcrumbs"><a href="https://andGarc.github.io/ag/">Home</a>&nbsp;»&nbsp;<a href="https://andGarc.github.io/ag/posts/">Posts</a></div>
     <h1 class="post-title entry-hint-parent">
-      Github Changes - Clone
+      Optimize Python Code Using Pre-Allocation
     </h1>
     <div class="post-description">
-      Step-by-step guide on how to clone a repository, make changes, and submit a pull request using Git and GitHub
+      Pre-Allocation example in python
     </div>
-    <div class="post-meta"><span title='2022-09-26 00:00:00 +0000 UTC'>September 26, 2022</span>&nbsp;·&nbsp;2 min
+    <div class="post-meta"><span title='2023-08-26 18:41:22 -0500 -0500'>August 26, 2023</span>&nbsp;·&nbsp;2 min
 
 </div>
   </header> 
-  <div class="post-content"><p>If you don&rsquo;t want to fork the repository and prefer to clone and contribute directly to the original repository, you can follow these steps:</p>
-<h3 id="cloning-and-contributing-without-forking">Cloning and Contributing Without Forking:<a hidden class="anchor" aria-hidden="true" href="#cloning-and-contributing-without-forking">#</a></h3>
-<ol>
-<li>
-<p><strong>Clone the Repository:</strong></p>
-<ul>
-<li>
-<p>Open a terminal on your local machine.</p>
-</li>
-<li>
-<p>Navigate to the directory where you want to store the project.</p>
-</li>
-<li>
-<p>Run the following command:</p>
-<p><code>git clone https://github.com/original-author/repository.git</code></p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>Create a Branch:</strong></p>
-<ul>
-<li>
-<p>Change into the project&rsquo;s directory:</p>
-<p><code>cd repository</code></p>
-</li>
-<li>
-<p>Create a new branch for your changes. It&rsquo;s a good practice to name your branch descriptively:</p>
-<p><code>git checkout -b feature-branch</code></p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>Make Changes:</strong></p>
-<ul>
-<li>Make the necessary changes to the code using your preferred editor.</li>
-</ul>
-</li>
-<li>
-<p><strong>Commit Changes:</strong></p>
-<ul>
-<li>
-<p>Add the changes to the staging area:</p>
-<p><code>git add .</code></p>
-</li>
-<li>
-<p>Commit the changes:</p>
-<p><code>git commit -m &quot;Description of changes&quot;</code></p>
-</li>
-</ul>
-</li>
-<li>
-<p><strong>Push Changes to the Original Repository:</strong></p>
-<ul>
-<li>
-<p>Push the changes to the original repository:</p>
-<p><code>git push origin feature-branch</code></p>
-</li>
-</ul>
-</li>
-</ol>
-<h3 id="creating-a-pull-request">Creating a Pull Request:<a hidden class="anchor" aria-hidden="true" href="#creating-a-pull-request">#</a></h3>
-<ol start="6">
-<li>
-<p><strong>Submit a Pull Request:</strong></p>
-<ul>
-<li>Visit the original repository on GitHub.</li>
-<li>You should see a banner indicating that you recently pushed a branch. Click on the &ldquo;Compare &amp; pull request&rdquo; button.</li>
-<li>Add a title and description to your pull request, explaining what changes you made.</li>
-<li>Click on &ldquo;Create pull request.&rdquo;</li>
-</ul>
-</li>
-<li>
-<p><strong>Review and Merge:</strong></p>
-<ul>
-<li>The repository maintainers will review your changes. They may ask for modifications.</li>
-<li>Once the changes are approved, they will merge your pull request.</li>
-</ul>
-</li>
-</ol>
-<p>Keep in mind that this approach requires write access to the original repository. If you don&rsquo;t have write access, you may need to fork the repository or contact the repository owner to discuss your changes.</p>
+  <div class="post-content"><p><strong>Note:</strong> you&rsquo;ll really only notice a performance improvement when working with large data. Always make sure to look at Big-O first and fixt those issues first.</p>
+<h2 id="what-is-pre-allocation">What is Pre-Allocation<a hidden class="anchor" aria-hidden="true" href="#what-is-pre-allocation">#</a></h2>
+<p>Pre-allocation in Python typically refers to allocating memory or space for data structures such as lists, arrays, or other collections before adding elements to them. This concept is particularly relevant in situations where the size of the data structure is known in advance, or when performance optimization is desired.</p>
+<h2 id="example">Example<a hidden class="anchor" aria-hidden="true" href="#example">#</a></h2>
+<p>We are creating an empty list, iterating 30 million times using a for loop, and appending an element to the list at every iteration.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Dynamic Storage</span>
+</span></span><span style="display:flex;"><span>start <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
+</span></span><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> []
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> num <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">30_000_000</span>):
+</span></span><span style="display:flex;"><span>    my_list<span style="color:#f92672">.</span>append(num)
+</span></span><span style="display:flex;"><span>end <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Seconds: </span><span style="color:#e6db74">{</span>end<span style="color:#f92672">-</span>start<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><p>We can use pre-allocation to optimize the code above.
+We can create a list containing 30 million elements, with each element initially set to 0. Then we&rsquo;ll change the values of that list at each index as we go throught the loop.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-python" data-lang="python"><span style="display:flex;"><span><span style="color:#75715e"># Pre-allocation</span>
+</span></span><span style="display:flex;"><span>start <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
+</span></span><span style="display:flex;"><span>my_list <span style="color:#f92672">=</span> [<span style="color:#ae81ff">0</span>]<span style="color:#f92672">*</span><span style="color:#ae81ff">30_000_000</span>
+</span></span><span style="display:flex;"><span><span style="color:#66d9ef">for</span> num <span style="color:#f92672">in</span> range(<span style="color:#ae81ff">30_000_000</span>):
+</span></span><span style="display:flex;"><span>    my_list[num] <span style="color:#f92672">=</span> num
+</span></span><span style="display:flex;"><span>end <span style="color:#f92672">=</span> time<span style="color:#f92672">.</span>time()
+</span></span><span style="display:flex;"><span>print(<span style="color:#e6db74">f</span><span style="color:#e6db74">&#34;Seconds: </span><span style="color:#e6db74">{</span>end<span style="color:#f92672">-</span>start<span style="color:#e6db74">}</span><span style="color:#e6db74">&#34;</span>)
+</span></span></code></pre></div><h2 id="summary">Summary<a hidden class="anchor" aria-hidden="true" href="#summary">#</a></h2>
+<p>Preallocation can be beneficial in scenarios where you know the size of the data structure in advance and want to avoid unnecessary memory reallocations, which can improve performance and memory efficiency. However, it&rsquo;s important to note that Python&rsquo;s lists automatically resize themselves as needed, so preallocation is not always necessary and may not always lead to significant performance improvements. It&rsquo;s often a matter of optimizing specific performance-critical sections of code.</p>
 
 
   </div>
 
   <footer class="post-footer">
     <ul class="post-tags">
-      <li><a href="https://andGarc.github.io/ag/tags/git/">git</a></li>
-      <li><a href="https://andGarc.github.io/ag/tags/github/">github</a></li>
+      <li><a href="https://andGarc.github.io/ag/tags/python/">python</a></li>
     </ul>
   </footer>
 </article>

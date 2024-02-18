@@ -9,6 +9,17 @@
     <lastBuildDate>Fri, 09 Feb 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://andGarc.github.io/ag/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>What is a Digital Garden?</title>
+      <link>https://andGarc.github.io/ag/posts/what-is-a-digital-garden/</link>
+      <pubDate>Sun, 18 Sep 2022 11:32:44 -0500</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/what-is-a-digital-garden/</guid>
+      <description>What is a Digital Garden? A digital garden is like a cross between a personal blog and a knowledge base.
+This is where I keep knowledge accumulated over my career in a series of notes.
+Mine is powered by Hugo &amp;amp; PaperMod and hosted on GitHub Pages.
+Who are you exactly? I&amp;rsquo;m a data professional with interests in programming, ML, and data viz.
+On a personal note, I like to spend time outdoors skiing or whitewater kayaking.</description>
+    </item>
+    <item>
       <title>Documenting a Project</title>
       <link>https://andGarc.github.io/ag/posts/documenting-a-project/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
@@ -58,6 +69,13 @@ Problems &amp;gt; Tech Key lesson: focus on problems rather than technologies. G
       <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
       <guid>https://andGarc.github.io/ag/posts/issue-reporting-template/</guid>
       <description>Template for reporting issues</description>
+    </item>
+    <item>
+      <title>Optimize Python Code Using Pre-Allocation</title>
+      <link>https://andGarc.github.io/ag/posts/pre-allocation-python/</link>
+      <pubDate>Sat, 26 Aug 2023 18:41:22 -0500</pubDate>
+      <guid>https://andGarc.github.io/ag/posts/pre-allocation-python/</guid>
+      <description>Pre-Allocation example in python</description>
     </item>
     <item>
       <title>Useful Tableau Calculations</title>
