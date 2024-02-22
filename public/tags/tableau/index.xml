@@ -2,24 +2,24 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tableau on Andres Garcia</title>
-    <link>http://localhost:50635/ag/tags/tableau/</link>
+    <link>http://localhost:1313/ag/tags/tableau/</link>
     <description>Recent content in Tableau on Andres Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 31 Jan 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:50635/ag/tags/tableau/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ag/tags/tableau/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Use a Parameter to Swap Sheets</title>
-      <link>http://localhost:50635/ag/posts/use-parameter-to-swap-sheets/</link>
+      <link>http://localhost:1313/ag/posts/use-parameter-to-swap-sheets/</link>
       <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50635/ag/posts/use-parameter-to-swap-sheets/</guid>
+      <guid>http://localhost:1313/ag/posts/use-parameter-to-swap-sheets/</guid>
       <description>How to use a parameter in Tableau to swap between sheets</description>
     </item>
     <item>
       <title>Useful Tableau Calculations</title>
-      <link>http://localhost:50635/ag/posts/useful-tableau-calculations/</link>
+      <link>http://localhost:1313/ag/posts/useful-tableau-calculations/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:50635/ag/posts/useful-tableau-calculations/</guid>
+      <guid>http://localhost:1313/ag/posts/useful-tableau-calculations/</guid>
       <description>Dates Max Date
 MONTH([Date]) = MONTH({ FIXED : MAX([Date])})
 Max Date where values is not null or 0
