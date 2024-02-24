@@ -2,112 +2,118 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
-    <loc>http://localhost:1313/ag/posts/what-is-a-digital-garden/</loc>
+    <loc>http://localhost:53292/ag/posts/what-is-a-digital-garden/</loc>
     <lastmod>2022-09-18T11:32:44-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/</loc>
-    <lastmod>2024-02-18T18:18:19-05:00</lastmod>
+    <loc>http://localhost:53292/ag/</loc>
+    <lastmod>2024-02-21T22:48:08-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/</loc>
-    <lastmod>2024-02-18T18:18:19-05:00</lastmod>
+    <loc>http://localhost:53292/ag/posts/</loc>
+    <lastmod>2024-02-21T22:48:08-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/documentation/</loc>
+    <loc>http://localhost:53292/ag/tags/documentation/</loc>
     <lastmod>2024-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/documenting-a-project/</loc>
+    <loc>http://localhost:53292/ag/posts/documenting-a-project/</loc>
     <lastmod>2024-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/</loc>
+    <loc>http://localhost:53292/ag/tags/</loc>
     <lastmod>2024-02-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/tableau/</loc>
+    <loc>http://localhost:53292/ag/tags/tableau/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/use-parameter-to-swap-sheets/</loc>
+    <loc>http://localhost:53292/ag/posts/use-parameter-to-swap-sheets/</loc>
     <lastmod>2024-01-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/questions-every-data-scientist-should-remember/</loc>
+    <loc>http://localhost:53292/ag/posts/questions-every-data-scientist-should-remember/</loc>
     <lastmod>2023-12-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/python/</loc>
+    <loc>http://localhost:53292/ag/tags/python/</loc>
     <lastmod>2023-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/create-py-env-from-yaml/</loc>
+    <loc>http://localhost:53292/ag/posts/create-py-env-from-yaml/</loc>
     <lastmod>2023-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/problem-solving-for-anyone/</loc>
+    <loc>http://localhost:53292/ag/posts/problem-solving-for-anyone/</loc>
     <lastmod>2023-11-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/forecasting/</loc>
+    <loc>http://localhost:53292/ag/tags/forecasting/</loc>
     <lastmod>2023-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/ml/</loc>
+    <loc>http://localhost:53292/ag/tags/ml/</loc>
     <lastmod>2023-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/supply/</loc>
+    <loc>http://localhost:53292/ag/tags/supply/</loc>
     <lastmod>2023-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/supply-chain-demand-forecasting/</loc>
+    <loc>http://localhost:53292/ag/posts/supply-chain-demand-forecasting/</loc>
     <lastmod>2023-10-22T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/git/</loc>
+    <loc>http://localhost:53292/ag/tags/git/</loc>
     <lastmod>2023-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/issue-reporting-template/</loc>
+    <loc>http://localhost:53292/ag/posts/issue-reporting-template/</loc>
     <lastmod>2023-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/template/</loc>
+    <loc>http://localhost:53292/ag/tags/template/</loc>
     <lastmod>2023-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/pre-allocation-python/</loc>
+    <loc>http://localhost:53292/ag/posts/pre-allocation-python/</loc>
     <lastmod>2023-08-26T18:41:22-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/useful-tableau-calculations/</loc>
+    <loc>http://localhost:53292/ag/posts/useful-tableau-calculations/</loc>
     <lastmod>2023-08-14T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/js/</loc>
+    <loc>http://localhost:53292/ag/tags/js/</loc>
     <lastmod>2023-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/js-overview/</loc>
+    <loc>http://localhost:53292/ag/posts/js-overview/</loc>
     <lastmod>2023-07-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/switch-in-python/</loc>
+    <loc>http://localhost:53292/ag/posts/switch-in-python/</loc>
     <lastmod>2023-06-13T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/sqlalchemy-broke/</loc>
+    <loc>http://localhost:53292/ag/posts/sqlalchemy-broke/</loc>
     <lastmod>2023-05-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/dataviz/</loc>
+    <loc>http://localhost:53292/ag/tags/dataviz/</loc>
     <lastmod>2023-03-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/gestalt-principles/</loc>
+    <loc>http://localhost:53292/ag/posts/gestalt-principles/</loc>
     <lastmod>2023-03-16T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/ml-techniques/</loc>
+    <loc>http://localhost:53292/ag/posts/ml-techniques/</loc>
     <lastmod>2023-03-09T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/django/</loc>
+    <loc>http://localhost:53292/ag/tags/django/</loc>
     <lastmod>2022-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/faster-django-queries/</loc>
+    <loc>http://localhost:53292/ag/posts/faster-django-queries/</loc>
     <lastmod>2022-12-07T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/naming-conventions-git-branches/</loc>
-    <lastmod>2022-10-01T18:16:16-05:00</lastmod>
+    <loc>http://localhost:53292/ag/posts/grep/</loc>
+    <lastmod>2021-02-23T19:11:34-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/tags/github/</loc>
-    <lastmod>2022-09-26T00:00:00+00:00</lastmod>
+    <loc>http://localhost:53292/ag/tags/unix/</loc>
+    <lastmod>2021-02-23T19:11:34-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/github-changes-clone/</loc>
-    <lastmod>2022-09-26T00:00:00+00:00</lastmod>
+    <loc>http://localhost:53292/ag/posts/naming-conventions-git-branches/</loc>
+    <lastmod>2020-10-01T18:16:16-05:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/posts/github-changes-fork/</loc>
-    <lastmod>2022-09-26T00:00:00+00:00</lastmod>
+    <loc>http://localhost:53292/ag/tags/github/</loc>
+    <lastmod>2020-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/archives/</loc>
+    <loc>http://localhost:53292/ag/posts/github-changes-clone/</loc>
+    <lastmod>2020-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/categories/</loc>
+    <loc>http://localhost:53292/ag/posts/github-changes-fork/</loc>
+    <lastmod>2020-09-26T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/ag/search/</loc>
+    <loc>http://localhost:53292/ag/archives/</loc>
+  </url><url>
+    <loc>http://localhost:53292/ag/categories/</loc>
+  </url><url>
+    <loc>http://localhost:53292/ag/search/</loc>
   </url>
 </urlset>

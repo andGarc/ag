@@ -1,6 +1,6 @@
 +++
 title = 'Naming Conventions Git Branches'
-date = 2022-10-01T18:16:16-05:00
+date = 2020-10-01T18:16:16-05:00
 draft = false
 tags = ['git']
 Description = 'Cheatsheet'

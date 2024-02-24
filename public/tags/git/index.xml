@@ -2,38 +2,38 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Git on Andres Garcia</title>
-    <link>http://localhost:1313/ag/tags/git/</link>
+    <link>http://localhost:53292/ag/tags/git/</link>
     <description>Recent content in Git on Andres Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Tue, 26 Sep 2023 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/ag/tags/git/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:53292/ag/tags/git/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Report an Issue Template</title>
-      <link>http://localhost:1313/ag/posts/issue-reporting-template/</link>
+      <link>http://localhost:53292/ag/posts/issue-reporting-template/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/posts/issue-reporting-template/</guid>
+      <guid>http://localhost:53292/ag/posts/issue-reporting-template/</guid>
       <description>Template for reporting issues</description>
     </item>
     <item>
       <title>Naming Conventions Git Branches</title>
-      <link>http://localhost:1313/ag/posts/naming-conventions-git-branches/</link>
-      <pubDate>Sat, 01 Oct 2022 18:16:16 -0500</pubDate>
-      <guid>http://localhost:1313/ag/posts/naming-conventions-git-branches/</guid>
+      <link>http://localhost:53292/ag/posts/naming-conventions-git-branches/</link>
+      <pubDate>Thu, 01 Oct 2020 18:16:16 -0500</pubDate>
+      <guid>http://localhost:53292/ag/posts/naming-conventions-git-branches/</guid>
       <description>Cheatsheet</description>
     </item>
     <item>
       <title>Github Changes - Clone</title>
-      <link>http://localhost:1313/ag/posts/github-changes-clone/</link>
-      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/posts/github-changes-clone/</guid>
+      <link>http://localhost:53292/ag/posts/github-changes-clone/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:53292/ag/posts/github-changes-clone/</guid>
       <description>Step-by-step guide on how to clone a repository, make changes, and submit a pull request using Git and GitHub</description>
     </item>
     <item>
       <title>Github Changes - Fork</title>
-      <link>http://localhost:1313/ag/posts/github-changes-fork/</link>
-      <pubDate>Mon, 26 Sep 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/posts/github-changes-fork/</guid>
+      <link>http://localhost:53292/ag/posts/github-changes-fork/</link>
+      <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
+      <guid>http://localhost:53292/ag/posts/github-changes-fork/</guid>
       <description>Step-by-step guide on how to fork a repository, make changes, and submit a pull request using Git and GitHub</description>
     </item>
   </channel>

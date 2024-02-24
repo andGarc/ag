@@ -1,6 +1,6 @@
 +++
 title = 'Github Changes - Fork'
-date = 2022-09-26
+date = 2020-09-26
 draft = false
 tags = ['git', 'github']
 description = 'Step-by-step guide on how to fork a repository, make changes, and submit a pull request using Git and GitHub'
