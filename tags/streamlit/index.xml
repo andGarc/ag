@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Streamlit on Andres Garcia</title>
+    <link>http://localhost:59954/ag/tags/streamlit/</link>
+    <description>Recent content in Streamlit on Andres Garcia</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Wed, 21 Feb 2024 22:48:08 -0500</lastBuildDate>
+    <atom:link href="http://localhost:59954/ag/tags/streamlit/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Lessons Learned from Match.entor</title>
+      <link>http://localhost:59954/ag/posts/lessons-learned-from-match.mentor/</link>
+      <pubDate>Wed, 21 Feb 2024 22:48:08 -0500</pubDate>
+      <guid>http://localhost:59954/ag/posts/lessons-learned-from-match.mentor/</guid>
+      <description>Lessons I learned while bulding a recomendation model using BERT</description>
+    </item>
+  </channel>
+</rss>
