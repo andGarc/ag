@@ -2,17 +2,17 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Posts on Andres Garcia</title>
-    <link>http://localhost:53292/ag/posts/</link>
+    <link>http://localhost:1313/ag/posts/</link>
     <description>Recent content in Posts on Andres Garcia</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Wed, 21 Feb 2024 22:48:08 -0500</lastBuildDate>
-    <atom:link href="http://localhost:53292/ag/posts/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/ag/posts/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>What is a Digital Garden?</title>
-      <link>http://localhost:53292/ag/posts/what-is-a-digital-garden/</link>
-      <pubDate>Sun, 18 Sep 2022 11:32:44 -0500</pubDate>
-      <guid>http://localhost:53292/ag/posts/what-is-a-digital-garden/</guid>
+      <link>http://localhost:1313/ag/posts/what-is-a-digital-garden/</link>
+      <pubDate>Fri, 18 Sep 2020 11:32:44 -0500</pubDate>
+      <guid>http://localhost:1313/ag/posts/what-is-a-digital-garden/</guid>
       <description>What is a Digital Garden? A digital garden is like a cross between a personal blog and a knowledge base.
 This is where I keep knowledge accumulated over my career in a series of notes.
 Mine is powered by Hugo &amp;amp; PaperMod and hosted on GitHub Pages.
@@ -20,68 +20,75 @@ Who are you exactly? I&amp;rsquo;m a data professional with interests in program
 On a personal note, I like to spend time outdoors, skiing or whitewater kayaking.</description>
     </item>
     <item>
+      <title>Lessons Learned from Match.Mentor</title>
+      <link>http://localhost:1313/ag/posts/lessons-learned-from-match.mentor/</link>
+      <pubDate>Wed, 21 Feb 2024 22:48:08 -0500</pubDate>
+      <guid>http://localhost:1313/ag/posts/lessons-learned-from-match.mentor/</guid>
+      <description>Lessons I learned while bulding a recomendation model using BERT</description>
+    </item>
+    <item>
       <title>Documenting a Project</title>
-      <link>http://localhost:53292/ag/posts/documenting-a-project/</link>
+      <link>http://localhost:1313/ag/posts/documenting-a-project/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/documenting-a-project/</guid>
+      <guid>http://localhost:1313/ag/posts/documenting-a-project/</guid>
       <description>Tips on documenting projects</description>
     </item>
     <item>
       <title>Use a Parameter to Swap Sheets</title>
-      <link>http://localhost:53292/ag/posts/use-parameter-to-swap-sheets/</link>
+      <link>http://localhost:1313/ag/posts/use-parameter-to-swap-sheets/</link>
       <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/use-parameter-to-swap-sheets/</guid>
+      <guid>http://localhost:1313/ag/posts/use-parameter-to-swap-sheets/</guid>
       <description>How to use a parameter in Tableau to swap between sheets</description>
     </item>
     <item>
       <title>Questions Every Data Scientist Should Hardcore Into Their Brain</title>
-      <link>http://localhost:53292/ag/posts/questions-every-data-scientist-should-remember/</link>
+      <link>http://localhost:1313/ag/posts/questions-every-data-scientist-should-remember/</link>
       <pubDate>Sun, 31 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/questions-every-data-scientist-should-remember/</guid>
+      <guid>http://localhost:1313/ag/posts/questions-every-data-scientist-should-remember/</guid>
       <description>Hammer Time &amp;ldquo;Hammer Problem&amp;rdquo; i.e. when you have a really nice hammer, everything looks like a nail. This often leads to projects which are intellectually stimulating yet practically useless.
 Problems &amp;gt; Tech Key lesson: focus on problems rather than technologies. Gain a sufficiently deep understanding of the business problem before writing a single line of code.
 5 Problem Discovery Questions What problem are you trying to solve? Why&amp;hellip;? One of the most difficult questions to ask.</description>
     </item>
     <item>
       <title>Python Environment form a YAML file</title>
-      <link>http://localhost:53292/ag/posts/create-py-env-from-yaml/</link>
+      <link>http://localhost:1313/ag/posts/create-py-env-from-yaml/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/create-py-env-from-yaml/</guid>
+      <guid>http://localhost:1313/ag/posts/create-py-env-from-yaml/</guid>
       <description>Create an environment form a YAML file</description>
     </item>
     <item>
       <title>Problem Solving for Anyone</title>
-      <link>http://localhost:53292/ag/posts/problem-solving-for-anyone/</link>
+      <link>http://localhost:1313/ag/posts/problem-solving-for-anyone/</link>
       <pubDate>Wed, 01 Nov 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/problem-solving-for-anyone/</guid>
+      <guid>http://localhost:1313/ag/posts/problem-solving-for-anyone/</guid>
       <description>How to use hypothesis like top strategy consultants</description>
     </item>
     <item>
       <title>Supply Chain Demand Forecasting</title>
-      <link>http://localhost:53292/ag/posts/supply-chain-demand-forecasting/</link>
+      <link>http://localhost:1313/ag/posts/supply-chain-demand-forecasting/</link>
       <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/supply-chain-demand-forecasting/</guid>
+      <guid>http://localhost:1313/ag/posts/supply-chain-demand-forecasting/</guid>
       <description>How to implement demand forecasting in the supply chain using python</description>
     </item>
     <item>
       <title>Report an Issue Template</title>
-      <link>http://localhost:53292/ag/posts/issue-reporting-template/</link>
+      <link>http://localhost:1313/ag/posts/issue-reporting-template/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/issue-reporting-template/</guid>
+      <guid>http://localhost:1313/ag/posts/issue-reporting-template/</guid>
       <description>Template for reporting issues</description>
     </item>
     <item>
       <title>Optimize Python Code Using Pre-Allocation</title>
-      <link>http://localhost:53292/ag/posts/pre-allocation-python/</link>
+      <link>http://localhost:1313/ag/posts/pre-allocation-python/</link>
       <pubDate>Sat, 26 Aug 2023 18:41:22 -0500</pubDate>
-      <guid>http://localhost:53292/ag/posts/pre-allocation-python/</guid>
+      <guid>http://localhost:1313/ag/posts/pre-allocation-python/</guid>
       <description>Pre-Allocation example in python</description>
     </item>
     <item>
       <title>Useful Tableau Calculations</title>
-      <link>http://localhost:53292/ag/posts/useful-tableau-calculations/</link>
+      <link>http://localhost:1313/ag/posts/useful-tableau-calculations/</link>
       <pubDate>Mon, 14 Aug 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/useful-tableau-calculations/</guid>
+      <guid>http://localhost:1313/ag/posts/useful-tableau-calculations/</guid>
       <description>Dates Max Date
 MONTH([Date]) = MONTH({ FIXED : MAX([Date])})
 Max Date where values is not null or 0
@@ -94,30 +101,30 @@ Get current value using max date</description>
     </item>
     <item>
       <title>JS Overview</title>
-      <link>http://localhost:53292/ag/posts/js-overview/</link>
+      <link>http://localhost:1313/ag/posts/js-overview/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/js-overview/</guid>
+      <guid>http://localhost:1313/ag/posts/js-overview/</guid>
       <description>Quick Javascript Overview - Reference</description>
     </item>
     <item>
       <title>Switch Case Replacement in Python</title>
-      <link>http://localhost:53292/ag/posts/switch-in-python/</link>
+      <link>http://localhost:1313/ag/posts/switch-in-python/</link>
       <pubDate>Tue, 13 Jun 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/switch-in-python/</guid>
+      <guid>http://localhost:1313/ag/posts/switch-in-python/</guid>
       <description>How-to implement a switch case in python</description>
     </item>
     <item>
       <title>Did SQLAlchemy Break?</title>
-      <link>http://localhost:53292/ag/posts/sqlalchemy-broke/</link>
+      <link>http://localhost:1313/ag/posts/sqlalchemy-broke/</link>
       <pubDate>Thu, 04 May 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/sqlalchemy-broke/</guid>
+      <guid>http://localhost:1313/ag/posts/sqlalchemy-broke/</guid>
       <description>Why did the SQLAlchemy ORM go to therapy? Because it had relationship issues!</description>
     </item>
     <item>
       <title>Gestalt Principles for Data Visualization</title>
-      <link>http://localhost:53292/ag/posts/gestalt-principles/</link>
+      <link>http://localhost:1313/ag/posts/gestalt-principles/</link>
       <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/gestalt-principles/</guid>
+      <guid>http://localhost:1313/ag/posts/gestalt-principles/</guid>
       <description>TL;RD The Gestalt principles can be used to understand how people interact with and create order out of visual stimuli.
 There are 6 principles:
 Proximity: Things that are close together are perceived as belonging together.
@@ -127,44 +134,44 @@ Closure: Our brains tend to fill in missing information to create a complete ima
     </item>
     <item>
       <title>Machine Learning Techniques</title>
-      <link>http://localhost:53292/ag/posts/ml-techniques/</link>
+      <link>http://localhost:1313/ag/posts/ml-techniques/</link>
       <pubDate>Thu, 09 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/ml-techniques/</guid>
+      <guid>http://localhost:1313/ag/posts/ml-techniques/</guid>
       <description>Overview of some core machine learning techniques</description>
     </item>
     <item>
       <title>Faster Django Queries</title>
-      <link>http://localhost:53292/ag/posts/faster-django-queries/</link>
+      <link>http://localhost:1313/ag/posts/faster-django-queries/</link>
       <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/faster-django-queries/</guid>
+      <guid>http://localhost:1313/ag/posts/faster-django-queries/</guid>
       <description>Improve your django queries</description>
     </item>
     <item>
       <title>grep</title>
-      <link>http://localhost:53292/ag/posts/grep/</link>
+      <link>http://localhost:1313/ag/posts/grep/</link>
       <pubDate>Tue, 23 Feb 2021 19:11:34 -0500</pubDate>
-      <guid>http://localhost:53292/ag/posts/grep/</guid>
+      <guid>http://localhost:1313/ag/posts/grep/</guid>
       <description>A popular unix command line utility for searching plain text in files. </description>
     </item>
     <item>
       <title>Naming Conventions Git Branches</title>
-      <link>http://localhost:53292/ag/posts/naming-conventions-git-branches/</link>
+      <link>http://localhost:1313/ag/posts/naming-conventions-git-branches/</link>
       <pubDate>Thu, 01 Oct 2020 18:16:16 -0500</pubDate>
-      <guid>http://localhost:53292/ag/posts/naming-conventions-git-branches/</guid>
+      <guid>http://localhost:1313/ag/posts/naming-conventions-git-branches/</guid>
       <description>Cheatsheet</description>
     </item>
     <item>
       <title>Github Changes - Clone</title>
-      <link>http://localhost:53292/ag/posts/github-changes-clone/</link>
+      <link>http://localhost:1313/ag/posts/github-changes-clone/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/github-changes-clone/</guid>
+      <guid>http://localhost:1313/ag/posts/github-changes-clone/</guid>
       <description>Step-by-step guide on how to clone a repository, make changes, and submit a pull request using Git and GitHub</description>
     </item>
     <item>
       <title>Github Changes - Fork</title>
-      <link>http://localhost:53292/ag/posts/github-changes-fork/</link>
+      <link>http://localhost:1313/ag/posts/github-changes-fork/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:53292/ag/posts/github-changes-fork/</guid>
+      <guid>http://localhost:1313/ag/posts/github-changes-fork/</guid>
       <description>Step-by-step guide on how to fork a repository, make changes, and submit a pull request using Git and GitHub</description>
     </item>
   </channel>

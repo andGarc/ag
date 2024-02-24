@@ -1,6 +1,6 @@
 +++
 title = 'What is a Digital Garden?'
-date = 2022-09-18T11:32:44-05:00
+date = 2020-09-18T11:32:44-05:00
 draft = false
 tags = ['']
 Description = ''
