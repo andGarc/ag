@@ -7,9 +7,15 @@ enableEmoji: true
 
 menu:
   main:
-    - name: Archive
-      url: archives
+    - name: About
+      url: about/
       weight: 5
+    - name: Archive
+      url: archives/
+      weight: 5
+    - name: Projects
+      url: projects/
+      weight: 10
     - name: Search
       url: search/
       weight: 10
@@ -18,6 +24,19 @@ menu:
       weight: 10
 
 params:
+  profileMode:
+    enabled: true
+    title: "Andres Garcia"
+    subtitle: "{Data Scientist} @ NG. [More about me](./about/) "
+    imageUrl: "<image link>"
+    imageTitle: "<title of image as alt>"
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: Posts
+        url: posts/
+      - name: Projects
+        url: projects/
   homeInfoParams:
     Title: Hi there
     Content: |
@@ -26,6 +45,9 @@ params:
     - name: linkedin
       title: View LinkedIn profile
       url: "https://www.linkedin.com/in/andres-garcia"
+    - name: github
+      title: View my GitHub
+      url: ""
     - name: tableau
       title: View my Tableau Public
       url: "https://public.tableau.com/app/profile/andres.garcia8430/vizzes"

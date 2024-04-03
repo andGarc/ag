@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en" dir="auto">
 
-<head><script src="/ag/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=ag/livereload" data-no-instant defer></script><meta charset="utf-8">
+<head><script src="/ag/livereload.js?mindelay=10&amp;v=2&amp;port=61159&amp;path=ag/livereload" data-no-instant defer></script><meta charset="utf-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 <meta name="robots" content="noindex, nofollow">
@@ -9,17 +9,17 @@
 <meta name="keywords" content="">
 <meta name="description" content="Posts - Andres Garcia">
 <meta name="author" content="">
-<link rel="canonical" href="http://localhost:1313/ag/posts/">
+<link rel="canonical" href="http://localhost:61159/ag/posts/">
 <link crossorigin="anonymous" href="/ag/assets/css/stylesheet.b609c58d5c11bb90b1a54e04005d74ad1ddf22165eb79f5533967e57df9c3b50.css" integrity="sha256-tgnFjVwRu5CxpU4EAF10rR3fIhZet59VM5Z&#43;V9&#43;cO1A=" rel="preload stylesheet" as="style">
-<link rel="icon" href="http://localhost:1313/ag/favicon.ico">
-<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:1313/ag/favicon-16x16.png">
-<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:1313/ag/favicon-32x32.png">
-<link rel="apple-touch-icon" href="http://localhost:1313/ag/apple-touch-icon.png">
-<link rel="mask-icon" href="http://localhost:1313/ag/safari-pinned-tab.svg">
+<link rel="icon" href="http://localhost:61159/ag/favicon.ico">
+<link rel="icon" type="image/png" sizes="16x16" href="http://localhost:61159/ag/favicon-16x16.png">
+<link rel="icon" type="image/png" sizes="32x32" href="http://localhost:61159/ag/favicon-32x32.png">
+<link rel="apple-touch-icon" href="http://localhost:61159/ag/apple-touch-icon.png">
+<link rel="mask-icon" href="http://localhost:61159/ag/safari-pinned-tab.svg">
 <meta name="theme-color" content="#2e2e33">
 <meta name="msapplication-TileColor" content="#2e2e33">
-<link rel="alternate" type="application/rss+xml" href="http://localhost:1313/ag/posts/index.xml">
-<link rel="alternate" hreflang="en" href="http://localhost:1313/ag/posts/">
+<link rel="alternate" type="application/rss+xml" href="http://localhost:61159/ag/posts/index.xml">
+<link rel="alternate" hreflang="en" href="http://localhost:61159/ag/posts/">
 <noscript>
     <style>
         #theme-toggle,
@@ -74,7 +74,7 @@
 <header class="header">
     <nav class="nav">
         <div class="logo">
-            <a href="http://localhost:1313/ag/" accesskey="h" title="Andres Garcia (Alt + H)">Andres Garcia</a>
+            <a href="http://localhost:61159/ag/" accesskey="h" title="Andres Garcia (Alt + H)">Andres Garcia</a>
             <div class="logo-switches">
                 <button id="theme-toggle" accesskey="t" title="(Alt + T)">
                     <svg id="moon" xmlns="http://www.w3.org/2000/svg" width="24" height="18" viewBox="0 0 24 24"
@@ -102,17 +102,27 @@
         </div>
         <ul id="menu">
             <li>
-                <a href="http://localhost:1313/ag/archives" title="Archive">
+                <a href="http://localhost:61159/ag/about/" title="About">
+                    <span>About</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:61159/ag/archives/" title="Archive">
                     <span>Archive</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/ag/search/" title="Search (Alt &#43; /)" accesskey=/>
+                <a href="http://localhost:61159/ag/projects/" title="Projects">
+                    <span>Projects</span>
+                </a>
+            </li>
+            <li>
+                <a href="http://localhost:61159/ag/search/" title="Search (Alt &#43; /)" accesskey=/>
                     <span>Search</span>
                 </a>
             </li>
             <li>
-                <a href="http://localhost:1313/ag/tags/" title="Tags">
+                <a href="http://localhost:61159/ag/tags/" title="Tags">
                     <span>Tags</span>
                 </a>
             </li>
@@ -120,31 +130,11 @@
     </nav>
 </header>
 <main class="main"> 
-<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:1313/ag/">Home</a></div>
+<header class="page-header"><div class="breadcrumbs"><a href="http://localhost:61159/ag/">Home</a></div>
   <h1>
     Posts
   </h1>
 </header>
-
-<article class="post-entry"> 
-  <header class="entry-header">
-    <h2 class="entry-hint-parent">Useful Tableau Calculations
-    </h2>
-  </header>
-  <div class="entry-content">
-    <p>Dates Max Date
-MONTH([Date]) = MONTH({ FIXED : MAX([Date])})
-Max Date where values is not null or 0
-[Date] = { FIXED : MAX(IF [Actual Miles] &lt;&gt; 0 THEN [Date] END)}
-Get previous date using max date
-{ FIXED : MAX(IF [Max Date] = FALSE THEN [Date] END) }
-Get previous value using previous date
-IF [Date] = [Previous Date] THEN [MPG] ELSE 0 END
-Get current value using max date...</p>
-  </div>
-  <footer class="entry-footer"><span title='2023-08-14 00:00:00 +0000 UTC'>August 14, 2023</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Useful Tableau Calculations" href="http://localhost:1313/ag/posts/useful-tableau-calculations/"></a>
-</article>
 
 <article class="post-entry"> 
   <header class="entry-header">
@@ -160,7 +150,7 @@ Operators &#43; - ** / % ** == === Numbers can be added to strings and vice vers
 4 &#43; 3 &#43; &#34;5&#34;; // &#34;75&#34; &#34;3&#34; &#43; 4 &#43; 5; // &#34;345&#34; // useful to convert strings Comparision == Does type coercion if given different types...</p>
   </div>
   <footer class="entry-footer"><span title='2023-07-17 00:00:00 +0000 UTC'>July 17, 2023</span>&nbsp;·&nbsp;5 min</footer>
-  <a class="entry-link" aria-label="post link to JS Overview" href="http://localhost:1313/ag/posts/js-overview/"></a>
+  <a class="entry-link" aria-label="post link to JS Overview" href="http://localhost:61159/ag/posts/js-overview/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -174,7 +164,7 @@ Because the dictionary found the object too “undefined”
 Implementing a switch case replacement using Python dictionary mapping A switch statement in Java might look like this:...</p>
   </div>
   <footer class="entry-footer"><span title='2023-06-13 00:00:00 +0000 UTC'>June 13, 2023</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Switch Case Replacement in Python" href="http://localhost:1313/ag/posts/switch-in-python/"></a>
+  <a class="entry-link" aria-label="post link to Switch Case Replacement in Python" href="http://localhost:61159/ag/posts/switch-in-python/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -186,7 +176,7 @@ Implementing a switch case replacement using Python dictionary mapping A switch 
     <p>TL;DR The new version of SQLAlchemy has caused a compatibility issue with the read_sql_query() function in pandas. When calling read_sql_query() and utilizing an SQLAlchemy engine to read an SQL query into a DataFrame, an AttributeError is raised. To resolve this error, you can rectify it by enclosing the query string within SQLAlchemy’s text() function and passing a connection object instead of an engine object. import pandas as pd from sqlalchemy import create_engine, text engine = create_engine(&#34;&lt;Connection String&gt;&#34;) query = &#34;SELECT * FROM table&#34; df = pd....</p>
   </div>
   <footer class="entry-footer"><span title='2023-05-04 00:00:00 +0000 UTC'>May 4, 2023</span>&nbsp;·&nbsp;2 min</footer>
-  <a class="entry-link" aria-label="post link to Did SQLAlchemy Break?" href="http://localhost:1313/ag/posts/sqlalchemy-broke/"></a>
+  <a class="entry-link" aria-label="post link to Did SQLAlchemy Break?" href="http://localhost:61159/ag/posts/sqlalchemy-broke/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -203,7 +193,7 @@ Continuity: Our brains prefer to see smooth and continuous paths, even if there 
 Closure: Our brains tend to fill in missing information to create a complete image or object....</p>
   </div>
   <footer class="entry-footer"><span title='2023-03-16 00:00:00 +0000 UTC'>March 16, 2023</span>&nbsp;·&nbsp;4 min</footer>
-  <a class="entry-link" aria-label="post link to Gestalt Principles for Data Visualization" href="http://localhost:1313/ag/posts/gestalt-principles/"></a>
+  <a class="entry-link" aria-label="post link to Gestalt Principles for Data Visualization" href="http://localhost:61159/ag/posts/gestalt-principles/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -223,7 +213,7 @@ Predict numeric values Regression
 Predict likely categories Classification</p>
   </div>
   <footer class="entry-footer"><span title='2023-03-09 00:00:00 +0000 UTC'>March 9, 2023</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Machine Learning Techniques" href="http://localhost:1313/ag/posts/ml-techniques/"></a>
+  <a class="entry-link" aria-label="post link to Machine Learning Techniques" href="http://localhost:61159/ag/posts/ml-techniques/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -237,7 +227,7 @@ In the settings.py add the code below to store all interactions in the sql.log f
 LOGGING = { &#39;version&#39;: 1, &#39;disable_existing_loggers&#39;: False, &#39;handlers&#39;: { &#39;file&#39;: { &#39;level: &#39;DEBUG&#39;, &#39;class&#39;: &#39;logging.FileHandlers&#39;, &#39;filename&#39;: &#39;sql.log&#39;, }, }, &#39;loggers&#39;: { &#39;django.db.backends&#39;: { &#39;handlers&#39;: [&#39;files&#39;], &#39;levels&#39;: &#39;DEBUG&#39;, &#39;propagate&#39;: &#39;TRUE&#39; } } } Tip 1: Use bulk insert students = [] grades = [] batch_size = 500 for i in range(1000): student = Student() student....</p>
   </div>
   <footer class="entry-footer"><span title='2022-12-07 00:00:00 +0000 UTC'>December 7, 2022</span>&nbsp;·&nbsp;1 min</footer>
-  <a class="entry-link" aria-label="post link to Faster Django Queries" href="http://localhost:1313/ag/posts/faster-django-queries/"></a>
+  <a class="entry-link" aria-label="post link to Faster Django Queries" href="http://localhost:61159/ag/posts/faster-django-queries/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -256,7 +246,7 @@ grep wordToSeachFor fileName
 For example, to find all lines containing “error” in the file “server....</p>
   </div>
   <footer class="entry-footer"><span title='2021-02-23 19:11:34 -0500 EST'>February 23, 2021</span>&nbsp;·&nbsp;2 min</footer>
-  <a class="entry-link" aria-label="post link to grep" href="http://localhost:1313/ag/posts/grep/"></a>
+  <a class="entry-link" aria-label="post link to grep" href="http://localhost:61159/ag/posts/grep/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -268,7 +258,7 @@ For example, to find all lines containing “error” in the file “server....<
     <p>Basic Rules Lowercase and Hyphen-separated: Stick to lowercase for branch names and use hyphens to separate words. For example, feature/new-login or bugfix/header-styling. Alphanumeric Characters: Use only alphanumeric characters (a-z, 0–9) and hyphens. Avoid punctuation, spaces, underscores, or any non-alphanumeric character. No Continuous Hyphens: Do not use continuous hyphens. feature–new-login can be confusing and hard to read. No Trailing Hyphens: Do not end your branch name with a hyphen. For example, feature-new-login- is not a good practice....</p>
   </div>
   <footer class="entry-footer"><span title='2020-10-01 18:16:16 -0500 -0500'>October 1, 2020</span>&nbsp;·&nbsp;2 min</footer>
-  <a class="entry-link" aria-label="post link to Naming Conventions Git Branches" href="http://localhost:1313/ag/posts/naming-conventions-git-branches/"></a>
+  <a class="entry-link" aria-label="post link to Naming Conventions Git Branches" href="http://localhost:61159/ag/posts/naming-conventions-git-branches/"></a>
 </article>
 
 <article class="post-entry"> 
@@ -289,21 +279,38 @@ cd repository
 Create a new branch for your changes....</p>
   </div>
   <footer class="entry-footer"><span title='2020-09-26 00:00:00 +0000 UTC'>September 26, 2020</span>&nbsp;·&nbsp;2 min</footer>
-  <a class="entry-link" aria-label="post link to Github Changes - Clone" href="http://localhost:1313/ag/posts/github-changes-clone/"></a>
+  <a class="entry-link" aria-label="post link to Github Changes - Clone" href="http://localhost:61159/ag/posts/github-changes-clone/"></a>
+</article>
+
+<article class="post-entry"> 
+  <header class="entry-header">
+    <h2 class="entry-hint-parent">Github Changes - Fork
+    </h2>
+  </header>
+  <div class="entry-content">
+    <p>Cloning a Repository: Fork the Repository:
+Go to the GitHub page of the repository you want to contribute to.
+Click the “Fork” button in the top right corner. This creates a copy of the repository under your GitHub account.
+Clone Your Fork:
+On your forked repository, click the “Code” button.
+Copy the URL provided (e.g., https://github.com/your-username/repository.git).
+Open a terminal on your local machine.
+Navigate to the directory where you want to store the project....</p>
+  </div>
+  <footer class="entry-footer"><span title='2020-09-26 00:00:00 +0000 UTC'>September 26, 2020</span>&nbsp;·&nbsp;2 min</footer>
+  <a class="entry-link" aria-label="post link to Github Changes - Fork" href="http://localhost:61159/ag/posts/github-changes-fork/"></a>
 </article>
 <footer class="page-footer">
   <nav class="pagination">
-    <a class="prev" href="http://localhost:1313/ag/posts/">
-      «&nbsp;Prev&nbsp;1/3
-    </a>
-    <a class="next" href="http://localhost:1313/ag/posts/page/3/">Next&nbsp;3/3&nbsp;»
+    <a class="prev" href="http://localhost:61159/ag/posts/">
+      «&nbsp;Prev&nbsp;1/2
     </a>
   </nav>
 </footer>
     </main>
     
 <footer class="footer">
-    <span>&copy; 2024 <a href="http://localhost:1313/ag/">Andres Garcia</a></span>
+    <span>&copy; 2024 <a href="http://localhost:61159/ag/">Andres Garcia</a></span>
     <span>
         Powered by
         <a href="https://gohugo.io/" rel="noopener noreferrer" target="_blank">Hugo</a> &
