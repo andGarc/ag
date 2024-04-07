@@ -120,7 +120,7 @@ Get current value using max date"/>
   "keywords": [
     "tableau"
   ],
-  "articleBody": "Dates Max Date\nMONTH([Date]) = MONTH({ FIXED : MAX([Date])})\nMax Date where values is not null or 0\n[Date] = { FIXED : MAX(IF [Actual Miles] \u003c\u003e 0 THEN [Date] END)}\nGet previous date using max date\n{ FIXED : MAX(IF [Max Date] = FALSE THEN [Date] END) }\nGet previous value using previous date\nIF [Date] = [Previous Date] THEN [MPG] ELSE 0 END\nGet current value using max date\nIF [Max Date] = TRUE THEN [MPG] ELSE 0 END\nCategory Get the category for a max value\nGet the max value for every category { FIXED [Year], [State] : MAX([Candidatevotes]) } Compare max value to individual value and return category IF [Candidatevotes] = [Max Votes Year State] THEN [Part Simplified Abbrv] END ",
+  "articleBody": "Dates Max Date\nMONTH([Date]) = MONTH({ FIXED : MAX([Date])})\nMax Date where values is not null or 0\n[Date] = { FIXED : MAX(IF [Actual Miles] \u003c\u003e 0 THEN [Date] END)}\nGet previous date using max date\n{ FIXED : MAX(IF [Max Date] = FALSE THEN [Date] END) }\nGet previous value using previous date\nIF [Date] = [Previous Date] THEN [MPG] ELSE 0 END\nGet current value using max date\nIF [Max Date] = TRUE THEN [MPG] ELSE 0 END\nCategory Get the category for a max value\nGet the max value for every category { FIXED [Year], [State] : MAX([CandidateVotes]) } Compare max value to individual value and return category IF [CandidateVotes] = [Max Votes Year State] THEN [Part Simplified Abbrv] END ",
   "wordCount" : "124",
   "inLanguage": "en",
   "datePublished": "2023-08-14T00:00:00Z",
@@ -252,9 +252,9 @@ Get current value using max date"/>
 <p>Get the category for a max value</p>
 <ol>
 <li>Get the max value for every category
-<code>{ FIXED [Year], [State] : MAX([Candidatevotes]) }</code></li>
+<code>{ FIXED [Year], [State] : MAX([CandidateVotes]) }</code></li>
 <li>Compare max value to individual value and return category
-<code>IF [Candidatevotes] = [Max Votes Year State] THEN [Part Simplified Abbrv] END</code></li>
+<code>IF [CandidateVotes] = [Max Votes Year State] THEN [Part Simplified Abbrv] END</code></li>
 </ol>
 
 

@@ -96,7 +96,7 @@
   "keywords": [
     "unix"
   ],
-  "articleBody": "Simple use\ngrep wordToSeachFor fileName\nYou can take the output from a previous command and pipe it to grep cat fileName | grep wordToSeachFor\nYou can also look at multiple files using grep\ngrep word *.fileExtension\nThe Grep Basics At its core, grep is simple. You tell it the word to search for and the file to search in\ngrep wordToSeachFor fileName\nFor example, to find all lines containing “error” in the file “server.log”, you’d use:\ngrep error server.log\nFlags Flags to fine-tune your search\nCounting occurrences Use -c to see how many times a word appears grep -c warning system.log\nCase-insensitive search Make grep ignore case with -i\ngrep -i LOG system.log\nNegating the search Find lines without a specific word using -v\ngrep -v critical system.log\nMatching entire lines Only show lines that exactly match the search term with -x\ngrep -x \"Internal Server Error\" error.log\nMatching whole words Ensure the search term is a complete word with -w\ngrep -w root /etc/passwd\nSome Advanced Techniques Combining searches Use \\| (pipe symbol) to search for multiple options\ngrep '404\\|500' access.log\nCharacter ranges Find lines with numbers between 400 and 499\ngrep '4[0-9][0-9]' access.log\nAnchors ^: Matches the beginning of a line\ngrep '^root:' /etc/passwd\n$: Matches the end of a line\ngrep 'logout$' user_activity.log\n\\b: Matches the beginning or end of a word\ngrep '\\berror\\b' system.log\nPeeking around matches -B shows lines before the match\ngrep -w -B 2 error system.log\n-A shows lines after the match\ngrep -w -A 2 error system.log\n-C shows lines before and after the match grep -w -C 3 error system.log\nPutting it all Together Imagine you’re troubleshooting a web server and suspecting database connection issues. You can use grep to:\nSearch for “database error” messages\ngrep 'database error' error.log\nCount the occurrences\ngrep -c 'database error' error.log\nSee the surrounding context\ngrep -w 'database error' -C 3 error.log\nFuture:\n- How does grep work?\n",
+  "articleBody": "Simple use\ngrep wordToSearchFor fileName\nYou can take the output from a previous command and pipe it to grep cat fileName | grep wordToSearchFor\nYou can also look at multiple files using grep\ngrep word *.fileExtension\nThe Grep Basics At its core, grep is simple. You tell it the word to search for and the file to search in\ngrep wordToSearchFor fileName\nFor example, to find all lines containing “error” in the file “server.log”, you’d use:\ngrep error server.log\nFlags Flags to fine-tune your search\nCounting occurrences Use -c to see how many times a word appears grep -c warning system.log\nCase-insensitive search Make grep ignore case with -i\ngrep -i LOG system.log\nNegating the search Find lines without a specific word using -v\ngrep -v critical system.log\nMatching entire lines Only show lines that exactly match the search term with -x\ngrep -x \"Internal Server Error\" error.log\nMatching whole words Ensure the search term is a complete word with -w\ngrep -w root /etc/passwd\nSome Advanced Techniques Combining searches Use \\| (pipe symbol) to search for multiple options\ngrep '404\\|500' access.log\nCharacter ranges Find lines with numbers between 400 and 499\ngrep '4[0-9][0-9]' access.log\nAnchors ^: Matches the beginning of a line\ngrep '^root:' /etc/passwd\n$: Matches the end of a line\ngrep 'logout$' user_activity.log\n\\b: Matches the beginning or end of a word\ngrep '\\berror\\b' system.log\nPeeking around matches -B shows lines before the match\ngrep -w -B 2 error system.log\n-A shows lines after the match\ngrep -w -A 2 error system.log\n-C shows lines before and after the match grep -w -C 3 error system.log\nPutting it all Together Imagine you’re troubleshooting a web server and suspecting database connection issues. You can use grep to:\nSearch for “database error” messages\ngrep 'database error' error.log\nCount the occurrences\ngrep -c 'database error' error.log\nSee the surrounding context\ngrep -w 'database error' -C 3 error.log\nFuture:\n- How does grep work?\n",
   "wordCount" : "323",
   "inLanguage": "en",
   "datePublished": "2021-02-23T19:11:34-05:00",
@@ -245,15 +245,15 @@
 </div>
 
   <div class="post-content"><p>Simple use<br>
-<code>grep wordToSeachFor fileName</code></p>
+<code>grep wordToSearchFor fileName</code></p>
 <p>You can take the output from a previous command and pipe it to grep <br>
-<code>cat fileName | grep wordToSeachFor</code></p>
+<code>cat fileName | grep wordToSearchFor</code></p>
 <p>You can also look at multiple files using grep<br>
 <code>grep word *.fileExtension</code></p>
 <h2 id="the-grep-basics">The Grep Basics<a hidden class="anchor" aria-hidden="true" href="#the-grep-basics">#</a></h2>
 <p>At its core, grep is simple. You tell it the <strong>word to search for</strong> and
 the <strong>file to search in</strong><br>
-<code>grep wordToSeachFor fileName</code></p>
+<code>grep wordToSearchFor fileName</code></p>
 <p>For example, to find all lines containing &ldquo;error&rdquo; in the file &ldquo;server.log&rdquo;, you&rsquo;d use:<br>
 <code>grep error server.log</code></p>
 <h3 id="flags">Flags<a hidden class="anchor" aria-hidden="true" href="#flags">#</a></h3>
