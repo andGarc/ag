@@ -10,7 +10,7 @@ description = 'Tips on documenting projects'
 Short description of what this project is about. It could be 1-2 sentences. 
 
 ## Tech Stack
-List the main technologies you used. For small, extra packages, there is no need to wwrite them down
+List the main technologies you used. For small, extra packages, there is no need to write them down
 
 ## Features
 Describe what your project can do, like what the user can do. Include all features, every little detail matters.
