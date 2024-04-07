@@ -9,10 +9,10 @@ weight = 0
 +++
 
 Simple use  
-`grep wordToSeachFor fileName`
+`grep wordToSearchFor fileName`
 
 You can take the output from a previous command and pipe it to grep    
-`cat fileName | grep wordToSeachFor`
+`cat fileName | grep wordToSearchFor`
 
 You can also look at multiple files using grep   
 `grep word *.fileExtension`
@@ -20,7 +20,7 @@ You can also look at multiple files using grep
 ## The Grep Basics
 At its core, grep is simple. You tell it the **word to search for** and 
 the **file to search in**  
-`grep wordToSeachFor fileName`  
+`grep wordToSearchFor fileName`  
 
 For example, to find all lines containing "error" in the file "server.log", you'd use:  
 `grep error server.log`

@@ -24,7 +24,7 @@ Time series
 ### Identify the most influential rows
 Row importance
 
-### Identify frequently occuring patterns and rules 
+### Identify frequently occurring patterns and rules 
 Association
 
 ### Determine important attributes

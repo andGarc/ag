@@ -6,7 +6,7 @@ tags = ['python']
 description = 'Pre-Allocation example in python'
 +++
 
-**Note:** you'll really only notice a performance improvement when working with large data. Always make sure to look at Big-O first and fixt those issues first. 
+**Note:** you'll really only notice a performance improvement when working with large data. Always make sure to look at Big-O first and fix those issues first. 
 
 ## What is Pre-Allocation
 
@@ -26,7 +26,7 @@ print(f"Seconds: {end-start}")
 ```
 
 We can use pre-allocation to optimize the code above.
-We can create a list containing 30 million elements, with each element initially set to 0. Then we'll change the values of that list at each index as we go throught the loop. 
+We can create a list containing 30 million elements, with each element initially set to 0. Then we'll change the values of that list at each index as we go through the loop. 
 
 ```python
 # Pre-allocation

@@ -1,12 +1,12 @@
 +++
-title = 'Use a Parameter to Swap Sheets'
+title = 'Use a Parameter to Swap Sheets in Tableau'
 date = 2024-01-31
 draft = false
 tags = ['tableau']
 description = 'How to use a parameter in Tableau to swap between sheets'
 +++
 
-1. Connect to datasource 
+1. Connect to data source 
 2. Create 2 or more sheets
 3. Create a parameter
 	1. Data Type: String

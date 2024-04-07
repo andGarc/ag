@@ -26,6 +26,6 @@ Get current value using max date
 ## Category
 Get the category for a max value  
 1. Get the max value for every category
-	`{ FIXED [Year], [State] : MAX([Candidatevotes]) }`
+	`{ FIXED [Year], [State] : MAX([CandidateVotes]) }`
 2. Compare max value to individual value and return category
-	`IF [Candidatevotes] = [Max Votes Year State] THEN [Part Simplified Abbrv] END`
+	`IF [CandidateVotes] = [Max Votes Year State] THEN [Part Simplified Abbrv] END`

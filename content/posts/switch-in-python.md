@@ -38,7 +38,7 @@ System.out.println("Month " + month + " is " + monthString);
 ```
 
 Python dictionaries contain `key:value` pairs.  
-The dictionary keys act as cases in a switch statament.   
+The dictionary keys act as cases in a switch statement.   
 
 Switch case replacement in Python:  
 ```python
