@@ -2,101 +2,101 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
   <channel>
     <title>Tags on AG</title>
-    <link>http://localhost:1313/ag/tags/</link>
+    <link>http://localhost:65039/ag/tags/</link>
     <description>Recent content in Tags on AG</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en-us</language>
     <lastBuildDate>Fri, 09 Feb 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/ag/tags/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:65039/ag/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Documentation</title>
-      <link>http://localhost:1313/ag/tags/documentation/</link>
+      <link>http://localhost:65039/ag/tags/documentation/</link>
       <pubDate>Fri, 09 Feb 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/tags/documentation/</guid>
+      <guid>http://localhost:65039/ag/tags/documentation/</guid>
       <description></description>
     </item>
     <item>
       <title>Tableau</title>
-      <link>http://localhost:1313/ag/tags/tableau/</link>
+      <link>http://localhost:65039/ag/tags/tableau/</link>
       <pubDate>Wed, 31 Jan 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/tags/tableau/</guid>
+      <guid>http://localhost:65039/ag/tags/tableau/</guid>
       <description></description>
     </item>
     <item>
       <title>Python</title>
-      <link>http://localhost:1313/ag/tags/python/</link>
+      <link>http://localhost:65039/ag/tags/python/</link>
       <pubDate>Thu, 07 Dec 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/tags/python/</guid>
+      <guid>http://localhost:65039/ag/tags/python/</guid>
       <description></description>
     </item>
     <item>
       <title>Forecasting</title>
-      <link>http://localhost:1313/ag/tags/forecasting/</link>
+      <link>http://localhost:65039/ag/tags/forecasting/</link>
       <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/tags/forecasting/</guid>
+      <guid>http://localhost:65039/ag/tags/forecasting/</guid>
       <description></description>
     </item>
     <item>
       <title>Ml</title>
-      <link>http://localhost:1313/ag/tags/ml/</link>
+      <link>http://localhost:65039/ag/tags/ml/</link>
       <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/tags/ml/</guid>
+      <guid>http://localhost:65039/ag/tags/ml/</guid>
       <description></description>
     </item>
     <item>
       <title>Supply</title>
-      <link>http://localhost:1313/ag/tags/supply/</link>
+      <link>http://localhost:65039/ag/tags/supply/</link>
       <pubDate>Sun, 22 Oct 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/tags/supply/</guid>
+      <guid>http://localhost:65039/ag/tags/supply/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://localhost:1313/ag/tags/git/</link>
+      <link>http://localhost:65039/ag/tags/git/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/tags/git/</guid>
+      <guid>http://localhost:65039/ag/tags/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Template</title>
-      <link>http://localhost:1313/ag/tags/template/</link>
+      <link>http://localhost:65039/ag/tags/template/</link>
       <pubDate>Tue, 26 Sep 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/tags/template/</guid>
+      <guid>http://localhost:65039/ag/tags/template/</guid>
       <description></description>
     </item>
     <item>
       <title>Js</title>
-      <link>http://localhost:1313/ag/tags/js/</link>
+      <link>http://localhost:65039/ag/tags/js/</link>
       <pubDate>Mon, 17 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/tags/js/</guid>
+      <guid>http://localhost:65039/ag/tags/js/</guid>
       <description></description>
     </item>
     <item>
       <title>Dataviz</title>
-      <link>http://localhost:1313/ag/tags/dataviz/</link>
+      <link>http://localhost:65039/ag/tags/dataviz/</link>
       <pubDate>Thu, 16 Mar 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/tags/dataviz/</guid>
+      <guid>http://localhost:65039/ag/tags/dataviz/</guid>
       <description></description>
     </item>
     <item>
       <title>Django</title>
-      <link>http://localhost:1313/ag/tags/django/</link>
+      <link>http://localhost:65039/ag/tags/django/</link>
       <pubDate>Wed, 07 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/tags/django/</guid>
+      <guid>http://localhost:65039/ag/tags/django/</guid>
       <description></description>
     </item>
     <item>
       <title>Unix</title>
-      <link>http://localhost:1313/ag/tags/unix/</link>
+      <link>http://localhost:65039/ag/tags/unix/</link>
       <pubDate>Tue, 23 Feb 2021 19:11:34 -0500</pubDate>
-      <guid>http://localhost:1313/ag/tags/unix/</guid>
+      <guid>http://localhost:65039/ag/tags/unix/</guid>
       <description></description>
     </item>
     <item>
       <title>Github</title>
-      <link>http://localhost:1313/ag/tags/github/</link>
+      <link>http://localhost:65039/ag/tags/github/</link>
       <pubDate>Sat, 26 Sep 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/ag/tags/github/</guid>
+      <guid>http://localhost:65039/ag/tags/github/</guid>
       <description></description>
     </item>
   </channel>

@@ -26,7 +26,7 @@ params:
   socialIcons: # optional
     - name: portfolio-page
       title: View my online portfolio
-      url: ""
+      url: "https://andres.pages.dev"
 
   ShowReadingTime: true
   ShowBreadCrumbs: true
