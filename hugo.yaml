@@ -1,21 +1,15 @@
 baseURL: https://andGarc.github.io/ag/
 languageCode: en-us
-title: Andres Garcia
+title: AG
 theme: PaperMod
 
 enableEmoji: true
 
 menu:
   main:
-    - name: About
-      url: about/
-      weight: 5
     - name: Archive
       url: archives/
       weight: 5
-    - name: Projects
-      url: projects/
-      weight: 10
     - name: Search
       url: search/
       weight: 10
@@ -24,33 +18,15 @@ menu:
       weight: 10
 
 params:
-  profileMode:
-    enabled: true
-    title: "Andres Garcia"
-    subtitle: "{Data Scientist} @ NG. [More about me](./about/) "
-    imageUrl: "<image link>"
-    imageTitle: "<title of image as alt>"
-    imageWidth: 120 # custom size
-    imageHeight: 120 # custom size
-    buttons:
-      - name: Posts
-        url: posts/
-      - name: Projects
-        url: projects/
   homeInfoParams:
     Title: Hi there
     Content: |
-      - My name is Andres Garcia and this is my digital garden.  
+      - My name is [Andres Garcia](https://andres.pages.dev) and this is my [digital garden](https://andgarc.github.io/ag/posts/what-is-a-digital-garden/).
+      - I’m interested in programming, ML, and data viz.
   socialIcons: # optional
-    - name: linkedin
-      title: View LinkedIn profile
-      url: "https://www.linkedin.com/in/andres-garcia"
-    - name: github
-      title: View my GitHub
+    - name: portfolio-page
+      title: View my online portfolio
       url: ""
-    - name: tableau
-      title: View my Tableau Public
-      url: "https://public.tableau.com/app/profile/andres.garcia8430/vizzes"
 
   ShowReadingTime: true
   ShowBreadCrumbs: true
